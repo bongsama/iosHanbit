@@ -23,6 +23,7 @@
 		13E9DB5418E0581E0024351B /* _3LavelTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E9DB5318E0581E0024351B /* _3LavelTimerTests.m */; };
 		13E9DB5F18E066AF0024351B /* btn_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 13E9DB5D18E066AF0024351B /* btn_01.png */; };
 		13E9DB6018E066AF0024351B /* btn_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 13E9DB5E18E066AF0024351B /* btn_02.png */; };
+		13E9DB6318E068C00024351B /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E9DB6218E068C00024351B /* UIColor+Random.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		13E9DB5318E0581E0024351B /* _3LavelTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _3LavelTimerTests.m; sourceTree = "<group>"; };
 		13E9DB5D18E066AF0024351B /* btn_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_01.png; sourceTree = "<group>"; };
 		13E9DB5E18E066AF0024351B /* btn_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_02.png; sourceTree = "<group>"; };
+		13E9DB6118E068C00024351B /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
+		13E9DB6218E068C00024351B /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				13E9DB3718E0581D0024351B /* AppDelegate.h */,
 				13E9DB3818E0581D0024351B /* AppDelegate.m */,
 				13E9DB3A18E0581E0024351B /* Main.storyboard */,
+				13E9DB6118E068C00024351B /* UIColor+Random.h */,
+				13E9DB6218E068C00024351B /* UIColor+Random.m */,
 				13E9DB3D18E0581E0024351B /* ViewController.h */,
 				13E9DB3E18E0581E0024351B /* ViewController.m */,
 				13E9DB4018E0581E0024351B /* Images.xcassets */,
@@ -257,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13E9DB6318E068C00024351B /* UIColor+Random.m in Sources */,
 				13E9DB3F18E0581E0024351B /* ViewController.m in Sources */,
 				13E9DB3918E0581D0024351B /* AppDelegate.m in Sources */,
 				13E9DB3518E0581D0024351B /* main.m in Sources */,
