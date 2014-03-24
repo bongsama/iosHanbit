@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13B00B4C18E0413200664042 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B00B4B18E0413200664042 /* Foundation.framework */; };
+		13B00B4E18E0413200664042 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B00B4D18E0413200664042 /* CoreGraphics.framework */; };
+		13B00B5018E0413200664042 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B00B4F18E0413200664042 /* UIKit.framework */; };
+		13B00B5618E0413200664042 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13B00B5418E0413200664042 /* InfoPlist.strings */; };
+		13B00B5818E0413200664042 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B00B5718E0413200664042 /* main.m */; };
+		13B00B5C18E0413200664042 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B00B5B18E0413200664042 /* AppDelegate.m */; };
+		13B00B5F18E0413200664042 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13B00B5D18E0413200664042 /* Main.storyboard */; };
+		13B00B6218E0413200664042 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B00B6118E0413200664042 /* ViewController.m */; };
+		13B00B6418E0413200664042 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B00B6318E0413200664042 /* Images.xcassets */; };
+		13B00B6B18E0413200664042 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B00B6A18E0413200664042 /* XCTest.framework */; };
+		13B00B6C18E0413200664042 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B00B4B18E0413200664042 /* Foundation.framework */; };
+		13B00B6D18E0413200664042 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B00B4F18E0413200664042 /* UIKit.framework */; };
+		13B00B7518E0413200664042 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13B00B7318E0413200664042 /* InfoPlist.strings */; };
+		13B00B7718E0413200664042 /* _1_CandleButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B00B7618E0413200664042 /* _1_CandleButtonTests.m */; };
+		13B00B8718E0427500664042 /* ayase.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13B00B8018E0427500664042 /* ayase.jpg */; };
+		13B00B8818E0427500664042 /* hyori.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13B00B8118E0427500664042 /* hyori.jpg */; };
+		13B00B8918E0427500664042 /* kangdounwon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13B00B8218E0427500664042 /* kangdounwon.jpg */; };
+		13B00B8A18E0427500664042 /* kimtaehee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13B00B8318E0427500664042 /* kimtaehee.jpg */; };
+		13B00B8B18E0427500664042 /* munkeonyoung.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13B00B8418E0427500664042 /* munkeonyoung.jpg */; };
+		13B00B8C18E0427500664042 /* parkminyoung.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13B00B8518E0427500664042 /* parkminyoung.jpg */; };
+		13B00B8D18E0427500664042 /* shinmina2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13B00B8618E0427500664042 /* shinmina2.jpg */; };
+		13B00B9018E0439C00664042 /* candle_on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13B00B8E18E0439C00664042 /* candle_on.jpg */; };
+		13B00B9118E0439C00664042 /* candle_off.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13B00B8F18E0439C00664042 /* candle_off.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13B00B6E18E0413200664042 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13B00B4018E0413200664042 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B00B4718E0413200664042;
+			remoteInfo = "01 CandleButton";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13B00B4818E0413200664042 /* 01 CandleButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01 CandleButton.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B00B4B18E0413200664042 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		13B00B4D18E0413200664042 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		13B00B4F18E0413200664042 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		13B00B5318E0413200664042 /* 01 CandleButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "01 CandleButton-Info.plist"; sourceTree = "<group>"; };
+		13B00B5518E0413200664042 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13B00B5718E0413200664042 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13B00B5918E0413200664042 /* 01 CandleButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "01 CandleButton-Prefix.pch"; sourceTree = "<group>"; };
+		13B00B5A18E0413200664042 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13B00B5B18E0413200664042 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13B00B5E18E0413200664042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13B00B6018E0413200664042 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		13B00B6118E0413200664042 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13B00B6318E0413200664042 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		13B00B6918E0413200664042 /* 01 CandleButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01 CandleButtonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B00B6A18E0413200664042 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		13B00B7218E0413200664042 /* 01 CandleButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "01 CandleButtonTests-Info.plist"; sourceTree = "<group>"; };
+		13B00B7418E0413200664042 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13B00B7618E0413200664042 /* _1_CandleButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1_CandleButtonTests.m; sourceTree = "<group>"; };
+		13B00B8018E0427500664042 /* ayase.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ayase.jpg; sourceTree = "<group>"; };
+		13B00B8118E0427500664042 /* hyori.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hyori.jpg; sourceTree = "<group>"; };
+		13B00B8218E0427500664042 /* kangdounwon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kangdounwon.jpg; sourceTree = "<group>"; };
+		13B00B8318E0427500664042 /* kimtaehee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kimtaehee.jpg; sourceTree = "<group>"; };
+		13B00B8418E0427500664042 /* munkeonyoung.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = munkeonyoung.jpg; sourceTree = "<group>"; };
+		13B00B8518E0427500664042 /* parkminyoung.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = parkminyoung.jpg; sourceTree = "<group>"; };
+		13B00B8618E0427500664042 /* shinmina2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shinmina2.jpg; sourceTree = "<group>"; };
+		13B00B8E18E0439C00664042 /* candle_on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = candle_on.jpg; sourceTree = "<group>"; };
+		13B00B8F18E0439C00664042 /* candle_off.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = candle_off.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B00B4518E0413200664042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B00B4E18E0413200664042 /* CoreGraphics.framework in Frameworks */,
+				13B00B5018E0413200664042 /* UIKit.framework in Frameworks */,
+				13B00B4C18E0413200664042 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B00B6618E0413200664042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B00B6B18E0413200664042 /* XCTest.framework in Frameworks */,
+				13B00B6D18E0413200664042 /* UIKit.framework in Frameworks */,
+				13B00B6C18E0413200664042 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B00B3F18E0413200664042 = {
+			isa = PBXGroup;
+			children = (
+				13B00B5118E0413200664042 /* 01 CandleButton */,
+				13B00B7018E0413200664042 /* 01 CandleButtonTests */,
+				13B00B4A18E0413200664042 /* Frameworks */,
+				13B00B4918E0413200664042 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13B00B4918E0413200664042 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B00B4818E0413200664042 /* 01 CandleButton.app */,
+				13B00B6918E0413200664042 /* 01 CandleButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13B00B4A18E0413200664042 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13B00B4B18E0413200664042 /* Foundation.framework */,
+				13B00B4D18E0413200664042 /* CoreGraphics.framework */,
+				13B00B4F18E0413200664042 /* UIKit.framework */,
+				13B00B6A18E0413200664042 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13B00B5118E0413200664042 /* 01 CandleButton */ = {
+			isa = PBXGroup;
+			children = (
+				13B00B8E18E0439C00664042 /* candle_on.jpg */,
+				13B00B8F18E0439C00664042 /* candle_off.jpg */,
+				13B00B8018E0427500664042 /* ayase.jpg */,
+				13B00B8118E0427500664042 /* hyori.jpg */,
+				13B00B8218E0427500664042 /* kangdounwon.jpg */,
+				13B00B8318E0427500664042 /* kimtaehee.jpg */,
+				13B00B8418E0427500664042 /* munkeonyoung.jpg */,
+				13B00B8518E0427500664042 /* parkminyoung.jpg */,
+				13B00B8618E0427500664042 /* shinmina2.jpg */,
+				13B00B5A18E0413200664042 /* AppDelegate.h */,
+				13B00B5B18E0413200664042 /* AppDelegate.m */,
+				13B00B5D18E0413200664042 /* Main.storyboard */,
+				13B00B6018E0413200664042 /* ViewController.h */,
+				13B00B6118E0413200664042 /* ViewController.m */,
+				13B00B6318E0413200664042 /* Images.xcassets */,
+				13B00B5218E0413200664042 /* Supporting Files */,
+			);
+			path = "01 CandleButton";
+			sourceTree = "<group>";
+		};
+		13B00B5218E0413200664042 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13B00B5318E0413200664042 /* 01 CandleButton-Info.plist */,
+				13B00B5418E0413200664042 /* InfoPlist.strings */,
+				13B00B5718E0413200664042 /* main.m */,
+				13B00B5918E0413200664042 /* 01 CandleButton-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B00B7018E0413200664042 /* 01 CandleButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				13B00B7618E0413200664042 /* _1_CandleButtonTests.m */,
+				13B00B7118E0413200664042 /* Supporting Files */,
+			);
+			path = "01 CandleButtonTests";
+			sourceTree = "<group>";
+		};
+		13B00B7118E0413200664042 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13B00B7218E0413200664042 /* 01 CandleButtonTests-Info.plist */,
+				13B00B7318E0413200664042 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B00B4718E0413200664042 /* 01 CandleButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B00B7A18E0413200664042 /* Build configuration list for PBXNativeTarget "01 CandleButton" */;
+			buildPhases = (
+				13B00B4418E0413200664042 /* Sources */,
+				13B00B4518E0413200664042 /* Frameworks */,
+				13B00B4618E0413200664042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01 CandleButton";
+			productName = "01 CandleButton";
+			productReference = 13B00B4818E0413200664042 /* 01 CandleButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13B00B6818E0413200664042 /* 01 CandleButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B00B7D18E0413200664042 /* Build configuration list for PBXNativeTarget "01 CandleButtonTests" */;
+			buildPhases = (
+				13B00B6518E0413200664042 /* Sources */,
+				13B00B6618E0413200664042 /* Frameworks */,
+				13B00B6718E0413200664042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13B00B6F18E0413200664042 /* PBXTargetDependency */,
+			);
+			name = "01 CandleButtonTests";
+			productName = "01 CandleButtonTests";
+			productReference = 13B00B6918E0413200664042 /* 01 CandleButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13B00B4018E0413200664042 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "저녁반";
+				TargetAttributes = {
+					13B00B6818E0413200664042 = {
+						TestTargetID = 13B00B4718E0413200664042;
+					};
+				};
+			};
+			buildConfigurationList = 13B00B4318E0413200664042 /* Build configuration list for PBXProject "01 CandleButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13B00B3F18E0413200664042;
+			productRefGroup = 13B00B4918E0413200664042 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B00B4718E0413200664042 /* 01 CandleButton */,
+				13B00B6818E0413200664042 /* 01 CandleButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B00B4618E0413200664042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B00B6418E0413200664042 /* Images.xcassets in Resources */,
+				13B00B8C18E0427500664042 /* parkminyoung.jpg in Resources */,
+				13B00B8A18E0427500664042 /* kimtaehee.jpg in Resources */,
+				13B00B8D18E0427500664042 /* shinmina2.jpg in Resources */,
+				13B00B5618E0413200664042 /* InfoPlist.strings in Resources */,
+				13B00B5F18E0413200664042 /* Main.storyboard in Resources */,
+				13B00B8718E0427500664042 /* ayase.jpg in Resources */,
+				13B00B8818E0427500664042 /* hyori.jpg in Resources */,
+				13B00B8B18E0427500664042 /* munkeonyoung.jpg in Resources */,
+				13B00B9018E0439C00664042 /* candle_on.jpg in Resources */,
+				13B00B9118E0439C00664042 /* candle_off.jpg in Resources */,
+				13B00B8918E0427500664042 /* kangdounwon.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B00B6718E0413200664042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B00B7518E0413200664042 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B00B4418E0413200664042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B00B6218E0413200664042 /* ViewController.m in Sources */,
+				13B00B5C18E0413200664042 /* AppDelegate.m in Sources */,
+				13B00B5818E0413200664042 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B00B6518E0413200664042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B00B7718E0413200664042 /* _1_CandleButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13B00B6F18E0413200664042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B00B4718E0413200664042 /* 01 CandleButton */;
+			targetProxy = 13B00B6E18E0413200664042 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B00B5418E0413200664042 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B00B5518E0413200664042 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		13B00B5D18E0413200664042 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B00B5E18E0413200664042 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13B00B7318E0413200664042 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B00B7418E0413200664042 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13B00B7818E0413200664042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13B00B7918E0413200664042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13B00B7B18E0413200664042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "01 CandleButton/01 CandleButton-Prefix.pch";
+				INFOPLIST_FILE = "01 CandleButton/01 CandleButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		13B00B7C18E0413200664042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "01 CandleButton/01 CandleButton-Prefix.pch";
+				INFOPLIST_FILE = "01 CandleButton/01 CandleButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		13B00B7E18E0413200664042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/01 CandleButton.app/01 CandleButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "01 CandleButton/01 CandleButton-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "01 CandleButtonTests/01 CandleButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		13B00B7F18E0413200664042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/01 CandleButton.app/01 CandleButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "01 CandleButton/01 CandleButton-Prefix.pch";
+				INFOPLIST_FILE = "01 CandleButtonTests/01 CandleButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B00B4318E0413200664042 /* Build configuration list for PBXProject "01 CandleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B00B7818E0413200664042 /* Debug */,
+				13B00B7918E0413200664042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B00B7A18E0413200664042 /* Build configuration list for PBXNativeTarget "01 CandleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B00B7B18E0413200664042 /* Debug */,
+				13B00B7C18E0413200664042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13B00B7D18E0413200664042 /* Build configuration list for PBXNativeTarget "01 CandleButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B00B7E18E0413200664042 /* Debug */,
+				13B00B7F18E0413200664042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13B00B4018E0413200664042 /* Project object */;
+}
