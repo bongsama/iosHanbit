@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+-(void)updateTime;
 
 @end
 
@@ -45,10 +46,18 @@
     //현재 뷰에 추가
     [self.view addSubview:_lblTime];
     
-    
+    //타이머 발생
+    [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(updateTime) userInfo:nil repeats:YES];
     
     
 }
+
+
+-(void)updateTime
+{
+    
+}
+
 
 - (void)didReceiveMemoryWarning
 {
