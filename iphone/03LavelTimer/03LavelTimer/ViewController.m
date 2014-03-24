@@ -55,7 +55,11 @@
 
 -(void)updateTime
 {
-    
+    static int n=0;
+    NSLog(@"%d",n++);
+    NSDate *date=[[NSDate alloc]init];
+    NSDateFormatter *formatter=[[NSDateFormatter alloc]init];
+    [formatter setDateFormat:@"yyyy-"]
 }
 
 
