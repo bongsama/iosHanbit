@@ -33,6 +33,21 @@
     [self.view addSubview:_lblMessage];
 
 
+    //현재 시간 구하기
+    //시간라벨 생성후 추가
+    _lblTime=[[UILabel alloc]initWithFrame:CGRectMake(10, 50, 250, 30)];
+    _lblTime.text=@"Hello Iphone";
+    _lblTime.textAlignment=NSTextAlignmentCenter; //가운데 정렬
+    _lblTime.textColor=[UIColor greenColor];
+    _lblTime.backgroundColor=[UIColor blackColor];
+    _lblTime.font=[UIFont systemFontOfSize:20];
+    
+    //현재 뷰에 추가
+    [self.view addSubview:_lblTime];
+    
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
