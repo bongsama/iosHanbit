@@ -12,6 +12,6 @@
 
 @property (nonatomic,strong) UILabel *lblMessage;
 @property (nonatomic,strong) UILabel *lblTime;
-
+@property (nonatomic,strong) UIButton *btnChange;
 
 @end

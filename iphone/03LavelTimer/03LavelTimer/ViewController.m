@@ -10,7 +10,7 @@
 
 @interface ViewController ()
 -(void)updateTime;
-
+-(void)colorChange:(id)sender; //엑션 이벤트 지역 메서드로 줌. 외부에서 사용하게 할려면 ViewController.h에 넘겨야 한다.
 @end
 
 @implementation ViewController
@@ -49,7 +49,20 @@
     //타이머 발생
     [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(updateTime) userInfo:nil repeats:YES];
     
+    //버튼 생성후 추가
+    _btnChange=[UIButton buttonWithType:UIButtonTypeRoundedRect];
+    _btnChange.frame=CGRectMake(100,150,100,30);
+    [_btnChange setTitle:@"색상변경" forState:UIControlStateNormal];
+    //_btnChange.backgroundColor=[UIColor grayColor];
+    [_btnChange setBackgroundImage:[UIImage imageNamed:@"btn_02.png"] forState:UIControlStateNormal];
+    [_btnChange setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     
+    //버튼 액션
+    [_btnChange addTarget:self action:@selector(colorChange:) forControlEvents:UIControlEventTouchUpInside];
+    
+    
+    
+    [self.view addSubview:_btnChange];
 }
 
 
@@ -63,6 +76,10 @@
     _lblTime.text=[formatter stringFromDate:date];
 }
 
+-(void)colorChange:(id)sender
+{
+    _lblMessage.textColor=[UIColor magentaColor];
+}
 
 - (void)didReceiveMemoryWarning
 {

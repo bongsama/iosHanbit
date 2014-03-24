@@ -21,6 +21,8 @@
 		13E9DB4A18E0581E0024351B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E9DB2C18E0581D0024351B /* UIKit.framework */; };
 		13E9DB5218E0581E0024351B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13E9DB5018E0581E0024351B /* InfoPlist.strings */; };
 		13E9DB5418E0581E0024351B /* _3LavelTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E9DB5318E0581E0024351B /* _3LavelTimerTests.m */; };
+		13E9DB5F18E066AF0024351B /* btn_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 13E9DB5D18E066AF0024351B /* btn_01.png */; };
+		13E9DB6018E066AF0024351B /* btn_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 13E9DB5E18E066AF0024351B /* btn_02.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		13E9DB4F18E0581E0024351B /* 03LavelTimerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "03LavelTimerTests-Info.plist"; sourceTree = "<group>"; };
 		13E9DB5118E0581E0024351B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		13E9DB5318E0581E0024351B /* _3LavelTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _3LavelTimerTests.m; sourceTree = "<group>"; };
+		13E9DB5D18E066AF0024351B /* btn_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_01.png; sourceTree = "<group>"; };
+		13E9DB5E18E066AF0024351B /* btn_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_02.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 		13E9DB2E18E0581D0024351B /* 03LavelTimer */ = {
 			isa = PBXGroup;
 			children = (
+				13E9DB5D18E066AF0024351B /* btn_01.png */,
+				13E9DB5E18E066AF0024351B /* btn_02.png */,
 				13E9DB3718E0581D0024351B /* AppDelegate.h */,
 				13E9DB3818E0581D0024351B /* AppDelegate.m */,
 				13E9DB3A18E0581E0024351B /* Main.storyboard */,
@@ -229,7 +235,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				13E9DB4118E0581E0024351B /* Images.xcassets in Resources */,
+				13E9DB5F18E066AF0024351B /* btn_01.png in Resources */,
 				13E9DB3318E0581D0024351B /* InfoPlist.strings in Resources */,
+				13E9DB6018E066AF0024351B /* btn_02.png in Resources */,
 				13E9DB3C18E0581E0024351B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
