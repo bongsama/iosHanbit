@@ -21,6 +21,10 @@
 		13ADFA5D18E199BE0044B0D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13ADFA3F18E199BE0044B0D1 /* UIKit.framework */; };
 		13ADFA6518E199BE0044B0D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13ADFA6318E199BE0044B0D1 /* InfoPlist.strings */; };
 		13ADFA6718E199BE0044B0D1 /* TimerExTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13ADFA6618E199BE0044B0D1 /* TimerExTests.m */; };
+		13ADFA7418E1A9860044B0D1 /* -car_lock-.aif in Resources */ = {isa = PBXBuildFile; fileRef = 13ADFA7018E1A9860044B0D1 /* -car_lock-.aif */; };
+		13ADFA7518E1A9860044B0D1 /* blackberry_mms.caf in Resources */ = {isa = PBXBuildFile; fileRef = 13ADFA7118E1A9860044B0D1 /* blackberry_mms.caf */; };
+		13ADFA7618E1A9860044B0D1 /* guitar_new_sms_2010.aif in Resources */ = {isa = PBXBuildFile; fileRef = 13ADFA7218E1A9860044B0D1 /* guitar_new_sms_2010.aif */; };
+		13ADFA7718E1A9860044B0D1 /* spongebob_hornpipe.aif in Resources */ = {isa = PBXBuildFile; fileRef = 13ADFA7318E1A9860044B0D1 /* spongebob_hornpipe.aif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		13ADFA6218E199BE0044B0D1 /* TimerExTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimerExTests-Info.plist"; sourceTree = "<group>"; };
 		13ADFA6418E199BE0044B0D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		13ADFA6618E199BE0044B0D1 /* TimerExTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerExTests.m; sourceTree = "<group>"; };
+		13ADFA7018E1A9860044B0D1 /* -car_lock-.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "-car_lock-.aif"; sourceTree = "<group>"; };
+		13ADFA7118E1A9860044B0D1 /* blackberry_mms.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = blackberry_mms.caf; sourceTree = "<group>"; };
+		13ADFA7218E1A9860044B0D1 /* guitar_new_sms_2010.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = guitar_new_sms_2010.aif; sourceTree = "<group>"; };
+		13ADFA7318E1A9860044B0D1 /* spongebob_hornpipe.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = spongebob_hornpipe.aif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +120,10 @@
 		13ADFA4118E199BE0044B0D1 /* TimerEx */ = {
 			isa = PBXGroup;
 			children = (
+				13ADFA7018E1A9860044B0D1 /* -car_lock-.aif */,
+				13ADFA7118E1A9860044B0D1 /* blackberry_mms.caf */,
+				13ADFA7218E1A9860044B0D1 /* guitar_new_sms_2010.aif */,
+				13ADFA7318E1A9860044B0D1 /* spongebob_hornpipe.aif */,
 				13ADFA4A18E199BE0044B0D1 /* AppDelegate.h */,
 				13ADFA4B18E199BE0044B0D1 /* AppDelegate.m */,
 				13ADFA4D18E199BE0044B0D1 /* Main.storyboard */,
@@ -228,8 +240,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13ADFA7618E1A9860044B0D1 /* guitar_new_sms_2010.aif in Resources */,
+				13ADFA7418E1A9860044B0D1 /* -car_lock-.aif in Resources */,
 				13ADFA5418E199BE0044B0D1 /* Images.xcassets in Resources */,
 				13ADFA4618E199BE0044B0D1 /* InfoPlist.strings in Resources */,
+				13ADFA7718E1A9860044B0D1 /* spongebob_hornpipe.aif in Resources */,
+				13ADFA7518E1A9860044B0D1 /* blackberry_mms.caf in Resources */,
 				13ADFA4F18E199BE0044B0D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
