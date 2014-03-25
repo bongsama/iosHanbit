@@ -47,6 +47,7 @@
     
     if(remainsec==0)
     {
+        AudioServicesPlaySystemSound(sori);
         _lblTime.text=@"Time Over";
         [myTimer invalidate];
         myTimer=nil;
