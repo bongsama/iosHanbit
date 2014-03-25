@@ -33,6 +33,7 @@
     {
         UIAlertView *dlg=[[UIAlertView alloc]initWithTitle:@"경고" message:@"Start 버튼을 이미 눌렀습니다." delegate:nil cancelButtonTitle:@"확인" otherButtonTitles:nil];
         [dlg show];
+        return;
     }
     
     
