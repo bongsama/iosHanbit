@@ -47,4 +47,15 @@
 }
 
 
+- (IBAction)button3:(id)sender {
+}
+
+- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    _label3.text=[NSString stringWithFormat:@"buttonIndex:%d",buttonIndex];
+}
+
+
+
+
 @end
