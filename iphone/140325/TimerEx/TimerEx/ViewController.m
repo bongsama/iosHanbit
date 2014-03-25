@@ -43,7 +43,7 @@
     NSDateComponents *comps = [gregori components:(NSHourCalendarUnit | NSMinuteCalendarUnit) fromDate:date];
     NSLog(@"%@",comps);
     int hour = [comps hour];
-    int minute = [comps minute];//
+    int minute = [comps minute];
     int totalsec = hour * 3600 + minute * 60;
     //타이머를 통해 데이터를 보낼때는 반드시 NSDictionary 타입이라 한다.
     NSNumber *numSec = [NSNumber numberWithInt:totalsec];
