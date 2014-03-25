@@ -32,6 +32,8 @@
     NSCalendar *gregori=[[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
     NSDateComponents *comps=[gregori components:(NSHourCalendarUnit|NSMinuteCalendarUnit) fromDate:date];
     int hour=[comps hour];
+    int minute=[comps minute];
+    NSLog(@"hour:%d, minute:%d",hour,minute);
 }
 
 - (IBAction)buttonStop:(id)sender {
