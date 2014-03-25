@@ -52,7 +52,7 @@
         [dlg show];
         return;
     }
-    
+    cnt=0;
     
     //NSLog(@"%@",_picker.date);
     NSDate *date=_picker.date;
