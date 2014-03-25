@@ -29,6 +29,9 @@
 }
 
 - (IBAction)buttonStart:(id)sender {
+    if(myTimer != nil)
+    
+    
     //NSLog(@"%@",_picker.date);
     NSDate *date=_picker.date;
     NSCalendar *gregori=[[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
