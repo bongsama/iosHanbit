@@ -29,6 +29,11 @@
     //타이머로부터 받은 데이타(초)
     int totalsec=[[[timer userInfo] objectForKey:@"totalsec"] intValue];
     int remainsec=totalsec-cnt;
+    
+    if(remainsec>=3600)
+    {
+        _lblTime.text=[NSString stringWithFormat:@"$2d:%02d:%02d", remainsec/3600,(remainsec%3600)/60,remainsec%60];
+    }
 }
 
 
