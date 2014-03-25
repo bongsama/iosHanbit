@@ -21,6 +21,8 @@
 		40B1E2E418E199B2004B2102 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40B1E2C618E199B2004B2102 /* UIKit.framework */; };
 		40B1E2EC18E199B2004B2102 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40B1E2EA18E199B2004B2102 /* InfoPlist.strings */; };
 		40B1E2EE18E199B2004B2102 /* TimerExTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B1E2ED18E199B2004B2102 /* TimerExTests.m */; };
+		40B1E2F818E1A9D6004B2102 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40B1E2F718E1A9D6004B2102 /* AudioToolbox.framework */; };
+		40B1E2FA18E1AA01004B2102 /* guitar_new_sms_2010.aif in Resources */ = {isa = PBXBuildFile; fileRef = 40B1E2F918E1AA01004B2102 /* guitar_new_sms_2010.aif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		40B1E2E918E199B2004B2102 /* TimerExTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimerExTests-Info.plist"; sourceTree = "<group>"; };
 		40B1E2EB18E199B2004B2102 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		40B1E2ED18E199B2004B2102 /* TimerExTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerExTests.m; sourceTree = "<group>"; };
+		40B1E2F718E1A9D6004B2102 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		40B1E2F918E1AA01004B2102 /* guitar_new_sms_2010.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = guitar_new_sms_2010.aif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40B1E2F818E1A9D6004B2102 /* AudioToolbox.framework in Frameworks */,
 				40B1E2C518E199B2004B2102 /* CoreGraphics.framework in Frameworks */,
 				40B1E2C718E199B2004B2102 /* UIKit.framework in Frameworks */,
 				40B1E2C318E199B2004B2102 /* Foundation.framework in Frameworks */,
@@ -101,6 +106,7 @@
 		40B1E2C118E199B2004B2102 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				40B1E2F718E1A9D6004B2102 /* AudioToolbox.framework */,
 				40B1E2C218E199B2004B2102 /* Foundation.framework */,
 				40B1E2C418E199B2004B2102 /* CoreGraphics.framework */,
 				40B1E2C618E199B2004B2102 /* UIKit.framework */,
@@ -112,6 +118,7 @@
 		40B1E2C818E199B2004B2102 /* TimerEx */ = {
 			isa = PBXGroup;
 			children = (
+				40B1E2F918E1AA01004B2102 /* guitar_new_sms_2010.aif */,
 				40B1E2D118E199B2004B2102 /* AppDelegate.h */,
 				40B1E2D218E199B2004B2102 /* AppDelegate.m */,
 				40B1E2D418E199B2004B2102 /* Main.storyboard */,
@@ -230,6 +237,7 @@
 			files = (
 				40B1E2DB18E199B2004B2102 /* Images.xcassets in Resources */,
 				40B1E2CD18E199B2004B2102 /* InfoPlist.strings in Resources */,
+				40B1E2FA18E1AA01004B2102 /* guitar_new_sms_2010.aif in Resources */,
 				40B1E2D618E199B2004B2102 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,6 +387,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TimerEx/TimerEx-Prefix.pch";
 				INFOPLIST_FILE = "TimerEx/TimerEx-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,6 +401,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TimerEx/TimerEx-Prefix.pch";
 				INFOPLIST_FILE = "TimerEx/TimerEx-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
