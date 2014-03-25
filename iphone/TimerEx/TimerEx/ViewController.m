@@ -54,11 +54,6 @@
     myTimer=[NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(updateTime:) userInfo:dict repeats:YES];
 
     
-    
-    
-    
-    
-    
 }
 
 - (IBAction)buttonStop:(id)sender {
