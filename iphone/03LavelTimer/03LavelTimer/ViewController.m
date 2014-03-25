@@ -11,6 +11,9 @@
 @interface ViewController ()
 -(void)updateTime;
 -(void)colorChange:(id)sender; //엑션 이벤트 지역 메서드로 줌. 외부에서 사용하게 할려면 ViewController.h에 넘겨야 한다.
+
+-(void)buttonInit;
+
 @end
 
 @implementation ViewController
@@ -57,12 +60,25 @@
     [_btnChange setBackgroundImage:[UIImage imageNamed:@"btn_02.png"] forState:UIControlStateNormal];
     [_btnChange setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     
+    //비활성화시 이미지
+    [_btnChange setBackgroundImage:[UIImage imageNamed:@"butbackgraydisabled.png"] forState:UIControlStateDisabled];
+    
+    //비활성화시 글자색
+    [_btnChange setTitleColor:[UIColor grayColor] forState:UIControlStateDisabled];
+    
     //버튼 액션
     [_btnChange addTarget:self action:@selector(colorChange:) forControlEvents:UIControlEventTouchUpInside];
     
     
     
     [self.view addSubview:_btnChange];
+
+    _btnInit=[UIButton buttonWithType:UIButtonTypeInfoDark];
+    _btnInit.frame=CGRectMake(200, 200, 50, 50);
+    [_btnInit addTarget:self action:@selector(buttonInit) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.view addSubview:_btnInit];
+    
 }
 
 
@@ -79,6 +95,13 @@
 -(void)colorChange:(id)sender
 {
     _lblMessage.textColor=[UIColor magentaColor];
+    
+    _btnChange.enabled=NO;
+}
+
+-(void)buttonInit
+{
+    _btnChange.enabled=YES;
 }
 
 - (void)didReceiveMemoryWarning

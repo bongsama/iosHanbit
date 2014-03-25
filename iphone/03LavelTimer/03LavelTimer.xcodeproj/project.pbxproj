@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13ADFA2E18E198A80044B0D1 /* butbackgraydisabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 13ADFA2D18E198A80044B0D1 /* butbackgraydisabled.png */; };
 		13E9DB2918E0581D0024351B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E9DB2818E0581D0024351B /* Foundation.framework */; };
 		13E9DB2B18E0581D0024351B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E9DB2A18E0581D0024351B /* CoreGraphics.framework */; };
 		13E9DB2D18E0581D0024351B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E9DB2C18E0581D0024351B /* UIKit.framework */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13ADFA2D18E198A80044B0D1 /* butbackgraydisabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butbackgraydisabled.png; sourceTree = "<group>"; };
 		13E9DB2518E0581D0024351B /* 03LavelTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 03LavelTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13E9DB2818E0581D0024351B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		13E9DB2A18E0581D0024351B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +121,7 @@
 		13E9DB2E18E0581D0024351B /* 03LavelTimer */ = {
 			isa = PBXGroup;
 			children = (
+				13ADFA2D18E198A80044B0D1 /* butbackgraydisabled.png */,
 				13E9DB5D18E066AF0024351B /* btn_01.png */,
 				13E9DB5E18E066AF0024351B /* btn_02.png */,
 				13E9DB3718E0581D0024351B /* AppDelegate.h */,
@@ -244,6 +247,7 @@
 				13E9DB3318E0581D0024351B /* InfoPlist.strings in Resources */,
 				13E9DB6018E066AF0024351B /* btn_02.png in Resources */,
 				13E9DB3C18E0581E0024351B /* Main.storyboard in Resources */,
+				13ADFA2E18E198A80044B0D1 /* butbackgraydisabled.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +474,7 @@
 				13E9DB5918E0581E0024351B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13E9DB5A18E0581E0024351B /* Build configuration list for PBXNativeTarget "03LavelTimerTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +483,7 @@
 				13E9DB5C18E0581E0024351B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
