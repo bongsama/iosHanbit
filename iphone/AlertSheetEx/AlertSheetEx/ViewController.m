@@ -36,9 +36,6 @@
     [alert2 show];
 }
 
-- (IBAction)button2:(id)sender {
-}
-
 - (IBAction)button3:(id)sender {
 }
 
