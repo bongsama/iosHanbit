@@ -44,6 +44,9 @@
     int hour=[comps hour];
     int minute=[comps minute];
     NSLog(@"hour:%d, minute:%d",hour,minute);
+    int totalsec=hour*3600+minute*60;
+    //다이머를 통해서 데이타를 보낼때는 반드시 NSDictionary 타입이라야 한다.
+    
 }
 
 - (IBAction)buttonStop:(id)sender {
