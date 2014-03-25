@@ -95,7 +95,7 @@
 }
 
 - (IBAction)buttonStop:(id)sender {
-        AudioServicesPlaySystemSound(sori);
+     AudioServicesPlaySystemSound(sori);
     [myTimer invalidate];
     _lblTime.text=@"00:00";
     myTimer=nil;
