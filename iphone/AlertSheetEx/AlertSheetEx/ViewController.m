@@ -32,7 +32,7 @@
 }
 
 - (IBAction)button2:(id)sender {
-    alert1=[[UIAlertView alloc]initWithTitle:@"데이타삭제" message:@"데이타를 삭제할까요?" delegate:self cancelButtonTitle:@"아니오" otherButtonTitles:@"예",@"글쎄요", nil];
+    alert2=[[UIAlertView alloc]initWithTitle:@"데이타삭제" message:@"데이타를 삭제할까요?" delegate:self cancelButtonTitle:@"아니오" otherButtonTitles:@"예",@"글쎄요", nil];
     [alert2 show];
 }
 
