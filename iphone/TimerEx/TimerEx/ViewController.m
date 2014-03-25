@@ -19,7 +19,14 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-
+    //효과음 생성
+    
+    NSString* path = path = [[NSBundle mainBundle] pathForResource:@"blackberry_mms" ofType:@"caf"];
+    NSURL* url = [NSURL fileURLWithPath:path];
+    // SoundID 생성
+    AudioServicesCreateSystemSoundID((__bridge CFURLRef)url, &sori);
+    
+    
 }
 
 
