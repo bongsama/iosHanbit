@@ -9,6 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    NSTimer *myTimer;
+    int cnt;
+}
 @property (weak, nonatomic) IBOutlet UIDatePicker *picker;
 @property (weak, nonatomic) IBOutlet UILabel *lblTime;
 
