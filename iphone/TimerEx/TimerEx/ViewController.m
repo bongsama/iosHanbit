@@ -22,6 +22,16 @@
 
 }
 
+
+- (void)updateTime:(NSTimer *)timer
+{
+    cnt++;
+    //타이머로부터 받은 데이타(초)
+    int totalsec=[[[timer userInfo] objectForKey:@"totalsec"] intValue];
+    
+}
+
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -61,4 +71,5 @@
     _lblTime.text=@"00:00";
     myTimer=nil;
 }
+
 @end
