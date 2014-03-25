@@ -36,9 +36,6 @@
     [alert2 show];
 }
 
-- (IBAction)button3:(id)sender {
-}
-
 -(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
     if (alertView==alert1) {
