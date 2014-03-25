@@ -30,6 +30,7 @@
     //NSLog(@"%@",_picker.date);
     NSDate *date=_picker.date;
     NSCalendar *gregori=[[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
+    NSDateComponents *comps=[gregori components:(NSHourCalendarUnit|NSMinuteCalendarUnit) fromDate:date];
 }
 
 - (IBAction)buttonStop:(id)sender {
