@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *label1;
+@property (weak, nonatomic) IBOutlet UILabel *label2;
+@property (weak, nonatomic) IBOutlet UILabel *label3;
+- (IBAction)button1:(id)sender;
+- (IBAction)button2:(id)sender;
+- (IBAction)button3:(id)sender;
+
 
 @end
