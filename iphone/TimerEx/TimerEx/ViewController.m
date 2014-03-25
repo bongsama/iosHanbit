@@ -28,6 +28,7 @@
     cnt++;
     //타이머로부터 받은 데이타(초)
     int totalsec=[[[timer userInfo] objectForKey:@"totalsec"] intValue];
+    int remainsec=totalsec-cnt;
     
 }
 
