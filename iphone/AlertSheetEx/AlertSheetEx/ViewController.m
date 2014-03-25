@@ -42,7 +42,7 @@
 -(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
     if (alertView==alert1) {
-        _label1.text=@"첫번째에서 발생!! button";
+        _label1.text=@"첫번째에서 발생!! buttonIndex:%d",[buttonIndex ];
     }else if(alertView == alert2)
     {
         _label2.text=@"두번째에서 발생~~";
