@@ -52,11 +52,25 @@
     UIActionSheet *sheet=[[UIActionSheet alloc]initWithTitle:@"이미지를 저장할까요" delegate:self cancelButtonTitle:@"아니오" destructiveButtonTitle:@"저장" otherButtonTitles:@"모두저장", nil];
     [sheet showInView:self.view];
     
+    
 }
 
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
 {
-    _label3.text=[NSString stringWithFormat:@"buttonIndex:%d",buttonIndex];
+    
+//    _label3.text=[NSString stringWithFormat:@"buttonIndex:%d",buttonIndex];
+
+    if(buttonIndex==0)
+    {
+        _label3.text=@"이미지 저장 완료!";
+    }
+    else if(buttonIndex==1)
+    {
+        _label3.text=@"이미지 저장 완료!";
+    }else if(buttonIndex==2)
+    {
+        _label3.text=@"이미지 저장작업 취소 완료!!";
+    }
 }
 
 
