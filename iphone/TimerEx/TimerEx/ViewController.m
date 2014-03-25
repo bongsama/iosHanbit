@@ -40,7 +40,7 @@
     if(remainsec==0)
     {
         _lblTime.text=@"Time Over";
-        [myTimer invalidate]
+        [myTimer invalidate];
         myTimer=nil;
     }
     
