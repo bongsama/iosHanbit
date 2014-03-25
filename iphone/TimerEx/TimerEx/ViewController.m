@@ -63,6 +63,7 @@
 
 - (IBAction)buttonStop:(id)sender {
     [myTimer invalidate];
+    _lblTime.text=@"00:00";
     myTimer=nil;
 }
 @end
