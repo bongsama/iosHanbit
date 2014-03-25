@@ -27,6 +27,7 @@
 }
 
 - (IBAction)button1:(id)sender {
+
 }
 
 - (IBAction)button2:(id)sender {
@@ -34,4 +35,16 @@
 
 - (IBAction)button3:(id)sender {
 }
+
+-(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    if (alertView==alert1) {
+        _label1.text=@"첫번째에서 발생!!";
+    }else if(alertView == alert2)
+    {
+        _label2.text=@"두번째에서 발생~~";
+    }
+}
+
+
 @end
