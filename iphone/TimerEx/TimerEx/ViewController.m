@@ -52,6 +52,11 @@
     
     //1초마타 updateTime 메소드 호출
     myTimer=[NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(updateTime:) userInfo:dict repeats:YES];
+
+    
+    
+    
+    
     
     
 }
