@@ -63,8 +63,7 @@
     if(buttonIndex==0)
     {
         _label3.text=@"이미지 저장 완료!";
-    }
-    else if(buttonIndex==1)
+    }else if(buttonIndex==1)
     {
         _label3.text=@"이미지 저장 완료!";
     }else if(buttonIndex==2)
