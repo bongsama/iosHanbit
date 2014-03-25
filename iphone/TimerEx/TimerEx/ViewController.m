@@ -36,6 +36,15 @@
     }else{
         _lblTime.text=[NSString stringWithFormat:@"%02d:%02d", remainsec/60, remainsec%60];
     }
+    
+    if(remainsec==0)
+    {
+        _lblTime.text=@"Time Over";
+        [myTimer invalidate]
+        myTimer=nil;
+    }
+    
+    
 }
 
 
