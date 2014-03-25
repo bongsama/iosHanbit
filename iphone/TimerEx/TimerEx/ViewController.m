@@ -48,6 +48,12 @@
     //다이머를 통해서 데이타를 보낼때는 반드시 NSDictionary 타입이라야 한다.
     NSNumber *numSec=[NSNumber numberWithInt:totalsec];
     NSDictionary *dict=[NSDictionary dictionaryWithObject:num forKey:@"totalsec"];
+    
+    
+    //1초마타 updateTime 메소드 호출
+    myTimer=[NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(updateTime:) userInfo:dict repeats:YES];
+    
+    
 }
 
 - (IBAction)buttonStop:(id)sender {
