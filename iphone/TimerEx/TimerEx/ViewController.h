@@ -13,7 +13,7 @@
 {
     NSTimer *myTimer;
     int cnt;
-
+    //효과음
     SystemSoundId sori;
 }
 @property (weak, nonatomic) IBOutlet UIDatePicker *picker;
