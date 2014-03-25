@@ -65,7 +65,7 @@
 }
 
 - (IBAction)buttonStart:(id)sender {
-    AudioServicesPlaySystemSound(sori);
+
     
     if(myTimer != nil)
     {
