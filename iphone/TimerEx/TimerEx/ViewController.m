@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+-(void)updateTime:(NSTimer *)timer;
 @end
 
 @implementation ViewController
