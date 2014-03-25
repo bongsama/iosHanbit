@@ -45,7 +45,7 @@
         _label1.text=[NSString stringWithFormat:@"첫번째에서 발생!! buttonIndex:%d",buttonIndex];
     }else if(alertView == alert2)
     {
-        _label2.text=@"두번째에서 발생~~";
+        _label2.text=[NSString stringWithFormat:@"두번째에서 발생!! buttonIndex:%d",buttonIndex];
     }
 }
 
