@@ -25,6 +25,7 @@
 		13ADFA7518E1A9860044B0D1 /* blackberry_mms.caf in Resources */ = {isa = PBXBuildFile; fileRef = 13ADFA7118E1A9860044B0D1 /* blackberry_mms.caf */; };
 		13ADFA7618E1A9860044B0D1 /* guitar_new_sms_2010.aif in Resources */ = {isa = PBXBuildFile; fileRef = 13ADFA7218E1A9860044B0D1 /* guitar_new_sms_2010.aif */; };
 		13ADFA7718E1A9860044B0D1 /* spongebob_hornpipe.aif in Resources */ = {isa = PBXBuildFile; fileRef = 13ADFA7318E1A9860044B0D1 /* spongebob_hornpipe.aif */; };
+		13ADFA7918E1AA620044B0D1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13ADFA7818E1AA620044B0D1 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		13ADFA7118E1A9860044B0D1 /* blackberry_mms.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = blackberry_mms.caf; sourceTree = "<group>"; };
 		13ADFA7218E1A9860044B0D1 /* guitar_new_sms_2010.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = guitar_new_sms_2010.aif; sourceTree = "<group>"; };
 		13ADFA7318E1A9860044B0D1 /* spongebob_hornpipe.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = spongebob_hornpipe.aif; sourceTree = "<group>"; };
+		13ADFA7818E1AA620044B0D1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13ADFA7918E1AA620044B0D1 /* AudioToolbox.framework in Frameworks */,
 				13ADFA3E18E199BE0044B0D1 /* CoreGraphics.framework in Frameworks */,
 				13ADFA4018E199BE0044B0D1 /* UIKit.framework in Frameworks */,
 				13ADFA3C18E199BE0044B0D1 /* Foundation.framework in Frameworks */,
@@ -109,6 +112,7 @@
 		13ADFA3A18E199BE0044B0D1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				13ADFA7818E1AA620044B0D1 /* AudioToolbox.framework */,
 				13ADFA3B18E199BE0044B0D1 /* Foundation.framework */,
 				13ADFA3D18E199BE0044B0D1 /* CoreGraphics.framework */,
 				13ADFA3F18E199BE0044B0D1 /* UIKit.framework */,
