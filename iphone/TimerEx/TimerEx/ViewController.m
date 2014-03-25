@@ -62,5 +62,6 @@
 }
 
 - (IBAction)buttonStop:(id)sender {
+    [myTimer invalidate];
 }
 @end
