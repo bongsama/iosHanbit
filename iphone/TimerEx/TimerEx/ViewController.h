@@ -14,7 +14,7 @@
     NSTimer *myTimer;
     int cnt;
     //효과음
-    SystemSoundId sori;
+    SystemSoundID sori;
 }
 @property (weak, nonatomic) IBOutlet UIDatePicker *picker;
 @property (weak, nonatomic) IBOutlet UILabel *lblTime;
