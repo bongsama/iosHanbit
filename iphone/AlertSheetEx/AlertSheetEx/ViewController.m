@@ -48,6 +48,9 @@
 
 
 - (IBAction)button3:(id)sender {
+    
+    UIActionSheet *sheet=[[UIActionSheet alloc]initWithTitle:@"이미지를 저장할까요" delegate:self cancelButtonTitle:@"아니오" destructiveButtonTitle:@"저장" otherButtonTitles:@"모두저장", nil]
+    
 }
 
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
