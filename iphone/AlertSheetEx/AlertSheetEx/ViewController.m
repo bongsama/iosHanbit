@@ -26,4 +26,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)button1:(id)sender {
+}
+
+- (IBAction)button2:(id)sender {
+}
+
+- (IBAction)button3:(id)sender {
+}
 @end
