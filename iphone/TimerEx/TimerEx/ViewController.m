@@ -21,7 +21,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     //효과음 생성
-    AudioServicesPlaySystemSound(sori);
+    
     
     NSString* path = path = [[NSBundle mainBundle] pathForResource:@"blackberry_mms" ofType:@"caf"];
     NSURL* url = [NSURL fileURLWithPath:path];
