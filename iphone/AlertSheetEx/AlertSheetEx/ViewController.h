@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<UIAlertViewDelegate>
+@interface ViewController : UIViewController<UIAlertViewDelegate> //프로토콜 임.
 {
     UIAlertView *alert1, *alert2;
     
