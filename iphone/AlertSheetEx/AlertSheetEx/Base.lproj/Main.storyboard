@@ -76,6 +76,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="label1" destination="zNF-9A-SnM" id="qn5-CW-2Fd"/>
                         <outlet property="label2" destination="uQK-vZ-bGU" id="MRJ-ur-tey"/>
