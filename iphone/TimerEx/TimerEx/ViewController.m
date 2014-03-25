@@ -10,6 +10,7 @@
 
 @interface ViewController ()
 -(void)updateTime:(NSTimer *)timer;
+SystemSoundId sori;
 @end
 
 @implementation ViewController
