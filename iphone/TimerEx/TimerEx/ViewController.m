@@ -47,7 +47,7 @@
     int totalsec=hour*3600+minute*60;
     //다이머를 통해서 데이타를 보낼때는 반드시 NSDictionary 타입이라야 한다.
     NSNumber *numSec=[NSNumber numberWithInt:totalsec];
-    NSDictionary *dict=[NSDictionary dictionaryWithObject:num forKey:@"totalsec"];
+    NSDictionary *dict=[NSDictionary dictionaryWithObject:numSec forKey:@"totalsec"];
     
     
     //1초마타 updateTime 메소드 호출
