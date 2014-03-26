@@ -67,8 +67,8 @@
     //출력창값
     NSMutableString *mout = [NSMutableString stringWithString:_tfOut.text];
     //출력창값이 0이거나 bFirst가  YES면 새로 찍고, 아니면 추가
-    if ([mout isEqualToString:@"0"]|| !bDot){
-        bDot = NO;
+    if ([mout isEqualToString:@"0"]|| bDot){
+        bDot = YES;
     }else{
         [mout appendString:title];
     }
