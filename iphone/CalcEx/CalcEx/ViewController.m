@@ -59,12 +59,11 @@
     bFirst=YES;
     bDot=NO;
     self.op=@"";
-    
-    
-    
 }
 
 - (IBAction)btnSign:(id)sender {
+    double su=[_tfOut.text doubleValue]*-1;
+    _tfOut.text=[NSString stringWithFormat:@"%g",su];
 }
 
 - (IBAction)btnDel:(id)sender {
