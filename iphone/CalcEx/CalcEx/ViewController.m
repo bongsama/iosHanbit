@@ -50,9 +50,6 @@
 - (IBAction)btnNumeric:(UIButton *)sender {
 }
 
-- (IBAction)btnOperator:(id)sender {
-}
-
 - (IBAction)btnClear:(id)sender {
 }
 
