@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--View Controller - Item 1-->
+        <!--View Controller-->
         <scene sceneID="BY7-Bh-dyH">
             <objects>
                 <viewController id="u4K-2m-xlh" sceneMemberID="viewController">
@@ -23,7 +23,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="xUN-kS-Rdf"/>
+                    <tabBarItem key="tabBarItem" title="" systemItem="favorites" id="xUN-kS-Rdf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JXY-9L-Nx3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -48,7 +48,7 @@
             </objects>
             <point key="canvasLocation" x="-167" y="32"/>
         </scene>
-        <!--View Controller - Item 2-->
+        <!--View Controller - min-->
         <scene sceneID="fjJ-AJ-aZ9">
             <objects>
                 <viewController id="QLp-pR-cJn" sceneMemberID="viewController">
@@ -59,9 +59,15 @@
                     <view key="view" contentMode="scaleToFill" id="DqB-S3-mhO">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shinmina2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="lyM-dT-cAd">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="hIh-ye-a9U"/>
+                    <tabBarItem key="tabBarItem" title="min" image="06-magnify.png" id="hIh-ye-a9U"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Axa-xY-4iz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -69,7 +75,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="06-magnify.png" width="24" height="24"/>
         <image name="kimtaehee.jpg" width="640" height="960"/>
+        <image name="shinmina2.jpg" width="640" height="960"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
