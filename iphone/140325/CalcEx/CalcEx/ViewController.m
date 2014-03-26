@@ -44,6 +44,7 @@
 
 - (IBAction)btnOperator:(UIButton *)sender {
     NSString    *op = [sender titleForState:UIControlStateNormal];
+    su1 = [[_tfOut text] doubleValue];
     _op = op;
     bFirst = YES;
     bDot = NO;
