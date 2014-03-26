@@ -70,8 +70,10 @@
 - (IBAction)btnDel:(id)sender {
     NSString *str=_tfOut.text;
     NSInteger len=[str length];
+    //전체길이에서
     NSString *substr=[str substringToIndex:len-1];
-    
+    if([substr length]==0)
+        substr=@"0";
 }
 
 - (IBAction)btnResult:(id)sender {
