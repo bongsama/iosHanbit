@@ -20,6 +20,7 @@
 		13122B3118E2F7D100D642F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13122B2F18E2F7D100D642F7 /* InfoPlist.strings */; };
 		13122B3318E2F7D100D642F7 /* emptyNaviEx1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13122B3218E2F7D100D642F7 /* emptyNaviEx1Tests.m */; };
 		13122B3D18E2F86400D642F7 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13122B3C18E2F86400D642F7 /* Storyboard.storyboard */; };
+		13122B4018E2F95A00D642F7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13122B3F18E2F95A00D642F7 /* FirstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		13122B3018E2F7D100D642F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		13122B3218E2F7D100D642F7 /* emptyNaviEx1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = emptyNaviEx1Tests.m; sourceTree = "<group>"; };
 		13122B3C18E2F86400D642F7 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		13122B3E18E2F95A00D642F7 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		13122B3F18E2F95A00D642F7 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				13122B1F18E2F7D100D642F7 /* Images.xcassets */,
 				13122B1418E2F7D100D642F7 /* Supporting Files */,
 				13122B3C18E2F86400D642F7 /* Storyboard.storyboard */,
+				13122B3E18E2F95A00D642F7 /* FirstViewController.h */,
+				13122B3F18E2F95A00D642F7 /* FirstViewController.m */,
 			);
 			path = emptyNaviEx1;
 			sourceTree = "<group>";
@@ -244,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13122B1E18E2F7D100D642F7 /* AppDelegate.m in Sources */,
+				13122B4018E2F95A00D642F7 /* FirstViewController.m in Sources */,
 				13122B1A18E2F7D100D642F7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
