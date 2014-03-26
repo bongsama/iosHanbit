@@ -63,7 +63,13 @@
                         </subviews>
                         <color key="backgroundColor" red="0.54985965024870009" green="0.42490695139516166" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="jZg-wL-9fZ"/>
+                    <navigationItem key="navigationItem" id="jZg-wL-9fZ">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="xqO-IX-2aQ">
+                            <connections>
+                                <segue destination="j1z-jW-1Ba" kind="push" id="cmz-mr-L9n"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="label" destination="Cht-xu-wJp" id="s2c-tn-Q3X"/>
                     </connections>
@@ -71,6 +77,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QaE-G8-OHo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1016" y="50"/>
+        </scene>
+        <!--View Controller - 봮-->
+        <scene sceneID="BTj-s8-rci">
+            <objects>
+                <viewController id="j1z-jW-1Ba" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6BF-kD-Lcf"/>
+                        <viewControllerLayoutGuide type="bottom" id="iQX-e7-gX4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HUt-Ua-qka">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="봮" id="0KO-BC-pMz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VsB-El-ESG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1414" y="60"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="R3I-mQ-UPM">
