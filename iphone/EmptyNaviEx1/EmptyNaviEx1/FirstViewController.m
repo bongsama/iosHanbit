@@ -34,7 +34,7 @@
     [_label setText:@"아무거나"];
     
     //네비게이션
-    self.navigationitem.title=@"First";
+    self.navigationItem.title=@"First";
     
 }
 
