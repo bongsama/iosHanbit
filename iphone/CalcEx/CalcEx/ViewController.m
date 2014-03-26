@@ -79,7 +79,7 @@
     {
         [mout appendString:@"."];
         bDot=YES;
-        
+        _tfOut.text=mout;
     }
 }
 @end
