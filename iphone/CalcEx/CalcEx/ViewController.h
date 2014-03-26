@@ -27,6 +27,7 @@
 - (IBAction)btnSign:(id)sender;
 - (IBAction)btnDel:(id)sender;
 - (IBAction)btnResult:(id)sender;
+- (IBAction)btDot:(id)sender;
 
 
 
