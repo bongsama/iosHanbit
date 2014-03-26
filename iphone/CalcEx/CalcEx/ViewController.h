@@ -15,6 +15,7 @@
     double su1, su2;
 }
 @property (nonatomic,copy) NSString *op;
+@property (strong, nonatomic) IBOutlet UITextField *tfOut;
 
 
 
