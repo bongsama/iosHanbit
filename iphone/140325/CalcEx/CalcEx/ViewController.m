@@ -46,6 +46,7 @@
     NSString    *op = [sender titleForState:UIControlStateNormal];
     _op = op;
     bFirst = YES;
+    bDot = NO;
 }
 
 - (IBAction)btnClear:(UIButton *)sender {
