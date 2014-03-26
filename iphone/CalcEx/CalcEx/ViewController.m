@@ -83,7 +83,7 @@
         su1/=su2;
 
     
-    _tfOut.text=[NsString stringWithFormat:@"%g",su1];
+    _tfOut.text=[NSString stringWithFormat:@"%g",su1];
     
     
     bFirst=1;
