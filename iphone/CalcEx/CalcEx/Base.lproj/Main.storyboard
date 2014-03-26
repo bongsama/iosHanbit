@@ -213,6 +213,9 @@
                                 <state key="normal" title=".">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="btDot:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="wxb-MQ-iq0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EaK-Vz-d6c">
                                 <rect key="frame" x="248" y="291" width="55" height="42"/>
