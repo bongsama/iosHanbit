@@ -32,6 +32,8 @@
 - (IBAction)btnNumeric:(id)sender {
     //버튼 숫자
     NSString *title=[sender titleForState:UIControlStateNormal];
+    NSMutableString *mout=[NSMutableString stringWithString:_tfOut.text]
+    
 }
 
 - (IBAction)btnOperator:(UIButton *)sender {
