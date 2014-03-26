@@ -22,6 +22,7 @@
 		4066403618E2F87300FC99F6 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4066403518E2F87300FC99F6 /* Storyboard.storyboard */; };
 		4066403918E2F93E00FC99F6 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4066403818E2F93E00FC99F6 /* FirstViewController.m */; };
 		4066403C18E2FD4700FC99F6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4066403B18E2FD4700FC99F6 /* SecondViewController.m */; };
+		4066403F18E3023500FC99F6 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4066403E18E3023500FC99F6 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		4066403818E2F93E00FC99F6 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		4066403A18E2FD4700FC99F6 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		4066403B18E2FD4700FC99F6 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		4066403D18E3023500FC99F6 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		4066403E18E3023500FC99F6 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				4066400D18E2F7A800FC99F6 /* Supporting Files */,
 				4066403718E2F93E00FC99F6 /* FirstViewController.h */,
 				4066403818E2F93E00FC99F6 /* FirstViewController.m */,
+				4066403D18E3023500FC99F6 /* ThirdViewController.h */,
+				4066403E18E3023500FC99F6 /* ThirdViewController.m */,
 			);
 			path = EmptyNaviEx1;
 			sourceTree = "<group>";
@@ -254,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4066403C18E2FD4700FC99F6 /* SecondViewController.m in Sources */,
+				4066403F18E3023500FC99F6 /* ThirdViewController.m in Sources */,
 				4066401718E2F7A800FC99F6 /* AppDelegate.m in Sources */,
 				4066403918E2F93E00FC99F6 /* FirstViewController.m in Sources */,
 				4066401318E2F7A800FC99F6 /* main.m in Sources */,
