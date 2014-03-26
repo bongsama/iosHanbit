@@ -81,8 +81,7 @@
         su1*=su2;
     else if([_op isEqualToString:@"/"])
         su1/=su2;
-    
-    
+
 }
 
 - (IBAction)btDot:(id)sender {
