@@ -63,6 +63,9 @@
 }
 
 - (IBAction)btnDel:(UIButton *)sender {
+    NSString *str = [_tfOut text];
+    NSInteger  len = [str length];
+    NSString    *substr = [str substringFromIndex:<#(NSUInteger)#>]
     
 }
 
