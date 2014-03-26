@@ -28,12 +28,6 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [_label setFont:[UIFont boldSystemFontOfSize:20]];
-    [_label setTextAlignment:NSTextAlignmentCenter];
-    
-    [_label setTextColor:[UIColor blueColor]];
-    [_label setText:@"아무거나"];
-    
     //네비게이션
     self.navigationItem.title=@"First";
     
