@@ -70,7 +70,9 @@
 - (IBAction)btnDel:(id)sender {
     NSString *str=_tfOut.text;
     NSInteger len=[str length];
-
+    //추출전 마지막 값이 도트면 bDot를 NO로
+    
+    
     //전체길이에서 1개를 뺀 숫자를 추출
     NSString *substr=[str substringToIndex:len-1];
     //추출된 숫자의 길이가 0 이면 숫자0추출
