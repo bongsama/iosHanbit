@@ -18,6 +18,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    //초기값
+    bFirst=Yes;
+    bDot=NO;
 }
 
 - (void)didReceiveMemoryWarning
@@ -27,6 +30,12 @@
 }
 
 - (IBAction)btnNumeric:(id)sender {
+}
+
+- (IBAction)btnOperator:(UIButton *)sender {
+}
+
+- (IBAction)btnNumeric:(UIButton *)sender {
 }
 
 - (IBAction)btnOperator:(id)sender {
