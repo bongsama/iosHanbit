@@ -32,8 +32,13 @@
 - (IBAction)btnNumeric:(id)sender {
     //버튼 숫자
     NSString *title=[sender titleForState:UIControlStateNormal];
-    NSMutableString *mout=[NSMutableString stringWithString:_tfOut.text]
-    
+    NSMutableString *mout=[NSMutableString stringWithString:_tfOut.text];
+    if([mout isEqualToString:@"0"] || bFirst)
+    {
+        [mout setString:title];
+    }else{
+        [mout appendString:title];
+    }
 }
 
 - (IBAction)btnOperator:(UIButton *)sender {
