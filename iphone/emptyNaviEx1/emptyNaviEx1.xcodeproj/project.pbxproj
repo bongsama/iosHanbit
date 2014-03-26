@@ -19,6 +19,7 @@
 		13122B2918E2F7D100D642F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13122B1118E2F7D100D642F7 /* UIKit.framework */; };
 		13122B3118E2F7D100D642F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13122B2F18E2F7D100D642F7 /* InfoPlist.strings */; };
 		13122B3318E2F7D100D642F7 /* emptyNaviEx1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13122B3218E2F7D100D642F7 /* emptyNaviEx1Tests.m */; };
+		13122B3D18E2F86400D642F7 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13122B3C18E2F86400D642F7 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		13122B2E18E2F7D100D642F7 /* emptyNaviEx1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "emptyNaviEx1Tests-Info.plist"; sourceTree = "<group>"; };
 		13122B3018E2F7D100D642F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		13122B3218E2F7D100D642F7 /* emptyNaviEx1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = emptyNaviEx1Tests.m; sourceTree = "<group>"; };
+		13122B3C18E2F86400D642F7 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				13122B1D18E2F7D100D642F7 /* AppDelegate.m */,
 				13122B1F18E2F7D100D642F7 /* Images.xcassets */,
 				13122B1418E2F7D100D642F7 /* Supporting Files */,
+				13122B3C18E2F86400D642F7 /* Storyboard.storyboard */,
 			);
 			path = emptyNaviEx1;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			files = (
 				13122B1818E2F7D100D642F7 /* InfoPlist.strings in Resources */,
 				13122B2018E2F7D100D642F7 /* Images.xcassets in Resources */,
+				13122B3D18E2F86400D642F7 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
