@@ -82,6 +82,10 @@
     else if([_op isEqualToString:@"/"])
         su1/=su2;
 
+    
+    bFirst=1;
+    bDot=0;
+    
 }
 
 - (IBAction)btDot:(id)sender {
