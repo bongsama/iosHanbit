@@ -30,6 +30,8 @@
 }
 
 - (IBAction)btnNumeric:(id)sender {
+    //버튼 숫자
+    NSString *title=[sender titleForState:UIControlStateNormal];
 }
 
 - (IBAction)btnOperator:(UIButton *)sender {
