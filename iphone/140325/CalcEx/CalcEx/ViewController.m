@@ -38,6 +38,7 @@
     }else{
         [mout appendString:title];
     }
+    [_tfOut setText:mout];
 }
 
 - (IBAction)btnOperator:(UIButton *)sender {
