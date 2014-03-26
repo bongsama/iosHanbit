@@ -107,6 +107,7 @@
 		13F01E1818E3058900257340 /* EmptyTabNaviEx2 */ = {
 			isa = PBXGroup;
 			children = (
+				13F01E4118E305B800257340 /* New Group */,
 				13F01E2118E3058900257340 /* AppDelegate.h */,
 				13F01E2218E3058900257340 /* AppDelegate.m */,
 				13F01E2418E3058900257340 /* Images.xcassets */,
@@ -142,6 +143,13 @@
 				13F01E3418E3058900257340 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13F01E4118E305B800257340 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
