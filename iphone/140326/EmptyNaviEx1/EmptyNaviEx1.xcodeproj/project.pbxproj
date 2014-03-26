@@ -21,6 +21,7 @@
 		4066402C18E2F7A800FC99F6 /* EmptyNaviEx1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4066402B18E2F7A800FC99F6 /* EmptyNaviEx1Tests.m */; };
 		4066403618E2F87300FC99F6 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4066403518E2F87300FC99F6 /* Storyboard.storyboard */; };
 		4066403918E2F93E00FC99F6 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4066403818E2F93E00FC99F6 /* FirstViewController.m */; };
+		4066403C18E2FD4700FC99F6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4066403B18E2FD4700FC99F6 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4066403518E2F87300FC99F6 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
 		4066403718E2F93E00FC99F6 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		4066403818E2F93E00FC99F6 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		4066403A18E2FD4700FC99F6 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		4066403B18E2FD4700FC99F6 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				4066403518E2F87300FC99F6 /* Storyboard.storyboard */,
+				4066403A18E2FD4700FC99F6 /* SecondViewController.h */,
+				4066403B18E2FD4700FC99F6 /* SecondViewController.m */,
 				4066401518E2F7A800FC99F6 /* AppDelegate.h */,
 				4066401618E2F7A800FC99F6 /* AppDelegate.m */,
 				4066401818E2F7A800FC99F6 /* Images.xcassets */,
@@ -248,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4066403C18E2FD4700FC99F6 /* SecondViewController.m in Sources */,
 				4066401718E2F7A800FC99F6 /* AppDelegate.m in Sources */,
 				4066403918E2F93E00FC99F6 /* FirstViewController.m in Sources */,
 				4066401318E2F7A800FC99F6 /* main.m in Sources */,
