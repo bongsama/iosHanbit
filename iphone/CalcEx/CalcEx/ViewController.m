@@ -50,6 +50,7 @@
     
     //다시 출력창에 출력
     _tfOut.text=mout;
+    bDot=NO;
 }
 
 - (IBAction)btnClear:(id)sender {
@@ -73,5 +74,12 @@
 }
 
 - (IBAction)btDot:(id)sender {
+    NSMutableString *mout=[NSMutableString stringWithString:_tfOut.text];
+    if(!bDot)
+    {
+        [mout appendString:@"."];
+        bDot=YES;
+        
+    }
 }
 @end
