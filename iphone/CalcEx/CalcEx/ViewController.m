@@ -19,8 +19,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     //초기값
-    bFirst=Yes;
-    bDot=NO;
+    bFirst=1;
+    bDot=0;
 }
 
 - (void)didReceiveMemoryWarning
