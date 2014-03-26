@@ -25,6 +25,7 @@
 		4066408C18E3063B00FC99F6 /* 26-bandaid.png in Resources */ = {isa = PBXBuildFile; fileRef = 4066408918E3063B00FC99F6 /* 26-bandaid.png */; };
 		4066408E18E3067400FC99F6 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4066408D18E3067400FC99F6 /* Storyboard.storyboard */; };
 		4066409018E307C700FC99F6 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4066408F18E307C700FC99F6 /* image1.png */; };
+		4066409218E307D700FC99F6 /* image6.png in Resources */ = {isa = PBXBuildFile; fileRef = 4066409118E307D700FC99F6 /* image6.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		4066408918E3063B00FC99F6 /* 26-bandaid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "26-bandaid.png"; sourceTree = "<group>"; };
 		4066408D18E3067400FC99F6 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		4066408F18E307C700FC99F6 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		4066409118E307D700FC99F6 /* image6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image6.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 		4066405218E305E000FC99F6 /* EmptyTabNaviEx2 */ = {
 			isa = PBXGroup;
 			children = (
+				4066409118E307D700FC99F6 /* image6.png */,
 				4066408F18E307C700FC99F6 /* image1.png */,
 				4066408718E3063B00FC99F6 /* 19-gear.png */,
 				4066408818E3063B00FC99F6 /* 25-weather.png */,
@@ -238,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4066408B18E3063B00FC99F6 /* 25-weather.png in Resources */,
+				4066409218E307D700FC99F6 /* image6.png in Resources */,
 				4066409018E307C700FC99F6 /* image1.png in Resources */,
 				4066408A18E3063B00FC99F6 /* 19-gear.png in Resources */,
 				4066408418E305FA00FC99F6 /* image4.png in Resources */,
