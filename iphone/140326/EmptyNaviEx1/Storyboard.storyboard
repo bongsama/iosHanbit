@@ -63,7 +63,13 @@
                         </subviews>
                         <color key="backgroundColor" red="0.54985965024870009" green="0.42490695139516166" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="jZg-wL-9fZ"/>
+                    <navigationItem key="navigationItem" id="jZg-wL-9fZ">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="YnT-Ce-OpC">
+                            <connections>
+                                <segue destination="7oA-xd-D7c" kind="push" id="5c0-hU-o6Z"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="label" destination="Cht-xu-wJp" id="s2c-tn-Q3X"/>
                     </connections>
@@ -71,6 +77,36 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QaE-G8-OHo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1016" y="50"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="QAs-r1-58O">
+            <objects>
+                <viewController id="7oA-xd-D7c" customClass="ThirdViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="azI-jX-WDq"/>
+                        <viewControllerLayoutGuide type="bottom" id="BBR-0l-hcA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Uqs-Fp-hle">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j3r-nj-0e3">
+                                <rect key="frame" x="39" y="118" width="287" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Rpn-8P-tH9"/>
+                    <connections>
+                        <outlet property="label" destination="j3r-nj-0e3" id="GGe-Qn-4V1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="66B-wr-yaF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1397" y="45"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="R3I-mQ-UPM">

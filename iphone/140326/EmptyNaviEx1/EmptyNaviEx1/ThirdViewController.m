@@ -26,6 +26,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [_label setText:@"세번쨰"];
+    
+    self.title = @"세번쨰";
     // Do any additional setup after loading the view.
 }
 

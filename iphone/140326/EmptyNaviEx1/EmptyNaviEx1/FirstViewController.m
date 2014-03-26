@@ -32,6 +32,11 @@
     
     [_label setTextColor:[UIColor blueColor]];
     [_label setText:@"아무거나"];
+    
+    
+    //네이게이션 타이틀
+    self.navigationItem.title = @"두번째";
+    
 }
 
 - (void)didReceiveMemoryWarning
