@@ -30,6 +30,7 @@
 		13F01E5518E3062000257340 /* 08-chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 13F01E5118E3062000257340 /* 08-chat.png */; };
 		13F01E5618E3062000257340 /* 09-chat-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 13F01E5218E3062000257340 /* 09-chat-2.png */; };
 		13F01E5718E3062000257340 /* 10-medical.png in Resources */ = {isa = PBXBuildFile; fileRef = 13F01E5318E3062000257340 /* 10-medical.png */; };
+		13F01E5918E3066100257340 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F01E5818E3066100257340 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		13F01E5118E3062000257340 /* 08-chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "08-chat.png"; sourceTree = "<group>"; };
 		13F01E5218E3062000257340 /* 09-chat-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "09-chat-2.png"; sourceTree = "<group>"; };
 		13F01E5318E3062000257340 /* 10-medical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "10-medical.png"; sourceTree = "<group>"; };
+		13F01E5818E3066100257340 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		13F01E0618E3058800257340 = {
 			isa = PBXGroup;
 			children = (
+				13F01E5818E3066100257340 /* Storyboard.storyboard */,
 				13F01E1818E3058900257340 /* EmptyTabNaviEx2 */,
 				13F01E3118E3058900257340 /* EmptyTabNaviEx2Tests */,
 				13F01E1118E3058900257340 /* Frameworks */,
@@ -265,6 +268,7 @@
 				13F01E5518E3062000257340 /* 08-chat.png in Resources */,
 				13F01E1D18E3058900257340 /* InfoPlist.strings in Resources */,
 				13F01E4F18E305F600257340 /* shinmina2.jpg in Resources */,
+				13F01E5918E3066100257340 /* Storyboard.storyboard in Resources */,
 				13F01E5418E3062000257340 /* 06-magnify.png in Resources */,
 				13F01E4C18E305F600257340 /* kimtaehee.jpg in Resources */,
 				13F01E4E18E305F600257340 /* parkminyoung.jpg in Resources */,
