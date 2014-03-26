@@ -57,6 +57,8 @@
 }
 
 - (IBAction)btbSign:(UIButton *)sender {
+    double su = -[_tfOut.text doubleValue];
+    _tfOut.text = [NSString stringWithFormat:@"%g",su];
 }
 
 - (IBAction)btnDel:(UIButton *)sender {
