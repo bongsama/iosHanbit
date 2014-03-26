@@ -20,6 +20,9 @@
 		4066407018E305E000FC99F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4066406E18E305E000FC99F6 /* InfoPlist.strings */; };
 		4066407218E305E000FC99F6 /* EmptyTabNaviEx2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4066407118E305E000FC99F6 /* EmptyTabNaviEx2Tests.m */; };
 		4066408418E305FA00FC99F6 /* image4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4066407E18E305FA00FC99F6 /* image4.png */; };
+		4066408A18E3063B00FC99F6 /* 19-gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 4066408718E3063B00FC99F6 /* 19-gear.png */; };
+		4066408B18E3063B00FC99F6 /* 25-weather.png in Resources */ = {isa = PBXBuildFile; fileRef = 4066408818E3063B00FC99F6 /* 25-weather.png */; };
+		4066408C18E3063B00FC99F6 /* 26-bandaid.png in Resources */ = {isa = PBXBuildFile; fileRef = 4066408918E3063B00FC99F6 /* 26-bandaid.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 		4066406F18E305E000FC99F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4066407118E305E000FC99F6 /* EmptyTabNaviEx2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmptyTabNaviEx2Tests.m; sourceTree = "<group>"; };
 		4066407E18E305FA00FC99F6 /* image4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image4.png; sourceTree = "<group>"; };
+		4066408718E3063B00FC99F6 /* 19-gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "19-gear.png"; sourceTree = "<group>"; };
+		4066408818E3063B00FC99F6 /* 25-weather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "25-weather.png"; sourceTree = "<group>"; };
+		4066408918E3063B00FC99F6 /* 26-bandaid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "26-bandaid.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,9 @@
 		4066405218E305E000FC99F6 /* EmptyTabNaviEx2 */ = {
 			isa = PBXGroup;
 			children = (
+				4066408718E3063B00FC99F6 /* 19-gear.png */,
+				4066408818E3063B00FC99F6 /* 25-weather.png */,
+				4066408918E3063B00FC99F6 /* 26-bandaid.png */,
 				4066407E18E305FA00FC99F6 /* image4.png */,
 				4066405B18E305E000FC99F6 /* AppDelegate.h */,
 				4066405C18E305E000FC99F6 /* AppDelegate.m */,
@@ -222,9 +231,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4066408B18E3063B00FC99F6 /* 25-weather.png in Resources */,
+				4066408A18E3063B00FC99F6 /* 19-gear.png in Resources */,
 				4066408418E305FA00FC99F6 /* image4.png in Resources */,
 				4066405718E305E000FC99F6 /* InfoPlist.strings in Resources */,
 				4066405F18E305E000FC99F6 /* Images.xcassets in Resources */,
+				4066408C18E3063B00FC99F6 /* 26-bandaid.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
