@@ -26,13 +26,12 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 - (IBAction)btnNumeric:(UIButton *)sender {
+//    버튼숫자
+    NSString*   title = [sender titleColorForState:UIControlStateNormal];
+    //출력창값
+    NSMutableString *mout = [NSMutableString stringWithString:_tfOut.text];
 }
 
 - (IBAction)btnOperator:(UIButton *)sender {
