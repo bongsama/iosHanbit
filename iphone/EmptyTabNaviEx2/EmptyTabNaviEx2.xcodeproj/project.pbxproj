@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13F01E1318E3058900257340 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F01E1218E3058900257340 /* Foundation.framework */; };
+		13F01E1518E3058900257340 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F01E1418E3058900257340 /* CoreGraphics.framework */; };
+		13F01E1718E3058900257340 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F01E1618E3058900257340 /* UIKit.framework */; };
+		13F01E1D18E3058900257340 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13F01E1B18E3058900257340 /* InfoPlist.strings */; };
+		13F01E1F18E3058900257340 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F01E1E18E3058900257340 /* main.m */; };
+		13F01E2318E3058900257340 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F01E2218E3058900257340 /* AppDelegate.m */; };
+		13F01E2518E3058900257340 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13F01E2418E3058900257340 /* Images.xcassets */; };
+		13F01E2C18E3058900257340 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F01E2B18E3058900257340 /* XCTest.framework */; };
+		13F01E2D18E3058900257340 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F01E1218E3058900257340 /* Foundation.framework */; };
+		13F01E2E18E3058900257340 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F01E1618E3058900257340 /* UIKit.framework */; };
+		13F01E3618E3058900257340 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13F01E3418E3058900257340 /* InfoPlist.strings */; };
+		13F01E3818E3058900257340 /* EmptyTabNaviEx2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F01E3718E3058900257340 /* EmptyTabNaviEx2Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13F01E2F18E3058900257340 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13F01E0718E3058800257340 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13F01E0E18E3058900257340;
+			remoteInfo = EmptyTabNaviEx2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13F01E0F18E3058900257340 /* EmptyTabNaviEx2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmptyTabNaviEx2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F01E1218E3058900257340 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		13F01E1418E3058900257340 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		13F01E1618E3058900257340 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		13F01E1A18E3058900257340 /* EmptyTabNaviEx2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmptyTabNaviEx2-Info.plist"; sourceTree = "<group>"; };
+		13F01E1C18E3058900257340 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13F01E1E18E3058900257340 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13F01E2018E3058900257340 /* EmptyTabNaviEx2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EmptyTabNaviEx2-Prefix.pch"; sourceTree = "<group>"; };
+		13F01E2118E3058900257340 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13F01E2218E3058900257340 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13F01E2418E3058900257340 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		13F01E2A18E3058900257340 /* EmptyTabNaviEx2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmptyTabNaviEx2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13F01E2B18E3058900257340 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		13F01E3318E3058900257340 /* EmptyTabNaviEx2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmptyTabNaviEx2Tests-Info.plist"; sourceTree = "<group>"; };
+		13F01E3518E3058900257340 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13F01E3718E3058900257340 /* EmptyTabNaviEx2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmptyTabNaviEx2Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13F01E0C18E3058900257340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F01E1518E3058900257340 /* CoreGraphics.framework in Frameworks */,
+				13F01E1718E3058900257340 /* UIKit.framework in Frameworks */,
+				13F01E1318E3058900257340 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F01E2718E3058900257340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F01E2C18E3058900257340 /* XCTest.framework in Frameworks */,
+				13F01E2E18E3058900257340 /* UIKit.framework in Frameworks */,
+				13F01E2D18E3058900257340 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13F01E0618E3058800257340 = {
+			isa = PBXGroup;
+			children = (
+				13F01E1818E3058900257340 /* EmptyTabNaviEx2 */,
+				13F01E3118E3058900257340 /* EmptyTabNaviEx2Tests */,
+				13F01E1118E3058900257340 /* Frameworks */,
+				13F01E1018E3058900257340 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13F01E1018E3058900257340 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13F01E0F18E3058900257340 /* EmptyTabNaviEx2.app */,
+				13F01E2A18E3058900257340 /* EmptyTabNaviEx2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13F01E1118E3058900257340 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13F01E1218E3058900257340 /* Foundation.framework */,
+				13F01E1418E3058900257340 /* CoreGraphics.framework */,
+				13F01E1618E3058900257340 /* UIKit.framework */,
+				13F01E2B18E3058900257340 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13F01E1818E3058900257340 /* EmptyTabNaviEx2 */ = {
+			isa = PBXGroup;
+			children = (
+				13F01E2118E3058900257340 /* AppDelegate.h */,
+				13F01E2218E3058900257340 /* AppDelegate.m */,
+				13F01E2418E3058900257340 /* Images.xcassets */,
+				13F01E1918E3058900257340 /* Supporting Files */,
+			);
+			path = EmptyTabNaviEx2;
+			sourceTree = "<group>";
+		};
+		13F01E1918E3058900257340 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13F01E1A18E3058900257340 /* EmptyTabNaviEx2-Info.plist */,
+				13F01E1B18E3058900257340 /* InfoPlist.strings */,
+				13F01E1E18E3058900257340 /* main.m */,
+				13F01E2018E3058900257340 /* EmptyTabNaviEx2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13F01E3118E3058900257340 /* EmptyTabNaviEx2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				13F01E3718E3058900257340 /* EmptyTabNaviEx2Tests.m */,
+				13F01E3218E3058900257340 /* Supporting Files */,
+			);
+			path = EmptyTabNaviEx2Tests;
+			sourceTree = "<group>";
+		};
+		13F01E3218E3058900257340 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13F01E3318E3058900257340 /* EmptyTabNaviEx2Tests-Info.plist */,
+				13F01E3418E3058900257340 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13F01E0E18E3058900257340 /* EmptyTabNaviEx2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F01E3B18E3058900257340 /* Build configuration list for PBXNativeTarget "EmptyTabNaviEx2" */;
+			buildPhases = (
+				13F01E0B18E3058900257340 /* Sources */,
+				13F01E0C18E3058900257340 /* Frameworks */,
+				13F01E0D18E3058900257340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmptyTabNaviEx2;
+			productName = EmptyTabNaviEx2;
+			productReference = 13F01E0F18E3058900257340 /* EmptyTabNaviEx2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13F01E2918E3058900257340 /* EmptyTabNaviEx2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13F01E3E18E3058900257340 /* Build configuration list for PBXNativeTarget "EmptyTabNaviEx2Tests" */;
+			buildPhases = (
+				13F01E2618E3058900257340 /* Sources */,
+				13F01E2718E3058900257340 /* Frameworks */,
+				13F01E2818E3058900257340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13F01E3018E3058900257340 /* PBXTargetDependency */,
+			);
+			name = EmptyTabNaviEx2Tests;
+			productName = EmptyTabNaviEx2Tests;
+			productReference = 13F01E2A18E3058900257340 /* EmptyTabNaviEx2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13F01E0718E3058800257340 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "저녁반";
+				TargetAttributes = {
+					13F01E2918E3058900257340 = {
+						TestTargetID = 13F01E0E18E3058900257340;
+					};
+				};
+			};
+			buildConfigurationList = 13F01E0A18E3058800257340 /* Build configuration list for PBXProject "EmptyTabNaviEx2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 13F01E0618E3058800257340;
+			productRefGroup = 13F01E1018E3058900257340 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13F01E0E18E3058900257340 /* EmptyTabNaviEx2 */,
+				13F01E2918E3058900257340 /* EmptyTabNaviEx2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13F01E0D18E3058900257340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F01E1D18E3058900257340 /* InfoPlist.strings in Resources */,
+				13F01E2518E3058900257340 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F01E2818E3058900257340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F01E3618E3058900257340 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13F01E0B18E3058900257340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F01E2318E3058900257340 /* AppDelegate.m in Sources */,
+				13F01E1F18E3058900257340 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F01E2618E3058900257340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13F01E3818E3058900257340 /* EmptyTabNaviEx2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13F01E3018E3058900257340 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13F01E0E18E3058900257340 /* EmptyTabNaviEx2 */;
+			targetProxy = 13F01E2F18E3058900257340 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13F01E1B18E3058900257340 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13F01E1C18E3058900257340 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		13F01E3418E3058900257340 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13F01E3518E3058900257340 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13F01E3918E3058900257340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13F01E3A18E3058900257340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13F01E3C18E3058900257340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmptyTabNaviEx2/EmptyTabNaviEx2-Prefix.pch";
+				INFOPLIST_FILE = "EmptyTabNaviEx2/EmptyTabNaviEx2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		13F01E3D18E3058900257340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmptyTabNaviEx2/EmptyTabNaviEx2-Prefix.pch";
+				INFOPLIST_FILE = "EmptyTabNaviEx2/EmptyTabNaviEx2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		13F01E3F18E3058900257340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EmptyTabNaviEx2.app/EmptyTabNaviEx2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmptyTabNaviEx2/EmptyTabNaviEx2-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EmptyTabNaviEx2Tests/EmptyTabNaviEx2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		13F01E4018E3058900257340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EmptyTabNaviEx2.app/EmptyTabNaviEx2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmptyTabNaviEx2/EmptyTabNaviEx2-Prefix.pch";
+				INFOPLIST_FILE = "EmptyTabNaviEx2Tests/EmptyTabNaviEx2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13F01E0A18E3058800257340 /* Build configuration list for PBXProject "EmptyTabNaviEx2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F01E3918E3058900257340 /* Debug */,
+				13F01E3A18E3058900257340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13F01E3B18E3058900257340 /* Build configuration list for PBXNativeTarget "EmptyTabNaviEx2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F01E3C18E3058900257340 /* Debug */,
+				13F01E3D18E3058900257340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13F01E3E18E3058900257340 /* Build configuration list for PBXNativeTarget "EmptyTabNaviEx2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13F01E3F18E3058900257340 /* Debug */,
+				13F01E4018E3058900257340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13F01E0718E3058800257340 /* Project object */;
+}
