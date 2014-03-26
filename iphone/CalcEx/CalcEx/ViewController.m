@@ -32,7 +32,7 @@
 - (IBAction)btnOperator:(UIButton *)sender {
     //버튼 연산자
     NSString *op=[sender titleForState:UIControlStateNormal];
-    
+    self.op=op;
 }
 
 - (IBAction)btnNumeric:(UIButton *)sender {
