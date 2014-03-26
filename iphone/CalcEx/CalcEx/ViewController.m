@@ -54,7 +54,10 @@
 
 - (IBAction)btnClear:(id)sender {
     bFirst=1;
-    
+    _tfOut.text=@"0";
+    bFirst=YES;
+    bDot=NO;
+    self.op=@"";
     
     
     
