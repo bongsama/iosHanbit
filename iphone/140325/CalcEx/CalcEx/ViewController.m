@@ -78,5 +78,18 @@
 }
 
 - (IBAction)btnResult:(UIButton *)sender {
+    su2 = [[_tfOut text]doubleValue];
+    if([_op isEqualToString:@"+"]){
+        su1 +=su2;
+    }else if([_op isEqualToString:@"-"]){
+        su1 -=su2;
+    }else if([_op isEqualToString:@"*"]){
+        su1 *=su2;
+    }else if([_op isEqualToString:@"/"]){
+        su1 /=su2;
+    }
+    [_tfOut setText:[NSString stringWithFormat:@"%g",su1]];
+    bFirst = YES;
+    bDot = NO;
 }
 @end
