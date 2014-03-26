@@ -53,6 +53,11 @@
 }
 
 - (IBAction)btnClear:(id)sender {
+    bFirst=1;
+    
+    
+    
+    
 }
 
 - (IBAction)btnSign:(id)sender {
