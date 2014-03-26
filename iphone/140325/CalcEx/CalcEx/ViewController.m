@@ -65,11 +65,12 @@
 - (IBAction)btnDel:(UIButton *)sender {
     NSString *str = [_tfOut text];
     //추출전 마지막값이 도트면 bDot = NO;
+    NSInteger len = [str length];
     
-    if([str characterAtIndex:[str length]-1] == '.'){
+    if([str characterAtIndex:len-1] == '.'){
         bDot = NO;
     };
-    NSString    *substr = [str substringFromIndex:[str length]-1];
+    NSString    *substr = [str substringFromIndex: len-1];
     //추출된 숫자의 길이가 0이면 숫자0출력
     if([substr length] ==0){
         substr = @"0";
