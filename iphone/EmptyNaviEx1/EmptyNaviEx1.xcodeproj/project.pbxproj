@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13F01E0518E3023700257340 /* TheadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F01E0418E3023700257340 /* TheadViewController.m */; };
 		4066400718E2F7A800FC99F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4066400618E2F7A800FC99F6 /* Foundation.framework */; };
 		4066400918E2F7A800FC99F6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4066400818E2F7A800FC99F6 /* CoreGraphics.framework */; };
 		4066400B18E2F7A800FC99F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4066400A18E2F7A800FC99F6 /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13F01E0318E3023700257340 /* TheadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheadViewController.h; sourceTree = "<group>"; };
+		13F01E0418E3023700257340 /* TheadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheadViewController.m; sourceTree = "<group>"; };
 		4066400318E2F7A800FC99F6 /* EmptyNaviEx1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmptyNaviEx1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4066400618E2F7A800FC99F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4066400818E2F7A800FC99F6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -116,6 +119,8 @@
 			isa = PBXGroup;
 			children = (
 				4066403518E2F87300FC99F6 /* Storyboard.storyboard */,
+				13F01E0318E3023700257340 /* TheadViewController.h */,
+				13F01E0418E3023700257340 /* TheadViewController.m */,
 				4066403A18E2FD4700FC99F6 /* SecondViewController.h */,
 				4066403B18E2FD4700FC99F6 /* SecondViewController.m */,
 				4066401518E2F7A800FC99F6 /* AppDelegate.h */,
@@ -253,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13F01E0518E3023700257340 /* TheadViewController.m in Sources */,
 				4066403C18E2FD4700FC99F6 /* SecondViewController.m in Sources */,
 				4066401718E2F7A800FC99F6 /* AppDelegate.m in Sources */,
 				4066403918E2F93E00FC99F6 /* FirstViewController.m in Sources */,
@@ -457,6 +463,7 @@
 				4066403118E2F7A800FC99F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4066403218E2F7A800FC99F6 /* Build configuration list for PBXNativeTarget "EmptyNaviEx1Tests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				4066403418E2F7A800FC99F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
