@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--View Controller - Item 1-->
+        <!--View Controller - 몰라-->
         <scene sceneID="zE3-aF-r1J">
             <objects>
                 <viewController id="dqJ-Xq-g9H" sceneMemberID="viewController">
@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="Ksu-LF-Cn6"/>
+                    <tabBarItem key="tabBarItem" title="몰라" image="25-weather.png" id="Ksu-LF-Cn6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FDi-cL-Jym" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -43,7 +43,7 @@
             </objects>
             <point key="canvasLocation" x="30" y="325"/>
         </scene>
-        <!--View Controller - Item 2-->
+        <!--View Controller - 그냥해-->
         <scene sceneID="ZGC-lf-GUc">
             <objects>
                 <viewController id="L6K-af-PHq" sceneMemberID="viewController">
@@ -54,15 +54,26 @@
                     <view key="view" contentMode="scaleToFill" id="cua-zF-tNZ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image4.png" translatesAutoresizingMaskIntoConstraints="NO" id="4RN-1m-KBr">
+                                <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="O0B-qr-ErM"/>
+                    <tabBarItem key="tabBarItem" title="그냥해" image="26-bandaid.png" id="O0B-qr-ErM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xCz-qK-FJ3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="564" y="651"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="25-weather.png" width="24" height="26"/>
+        <image name="26-bandaid.png" width="26" height="26"/>
+        <image name="image4.png" width="512" height="512"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
