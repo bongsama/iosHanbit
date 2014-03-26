@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+- (IBAction)btnNumeric:(id)sender;
+- (IBAction)btnOperator:(id)sender;
 
 @end
