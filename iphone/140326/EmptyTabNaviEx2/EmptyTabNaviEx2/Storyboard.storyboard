@@ -68,7 +68,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" image="image1.png" id="O0B-qr-ErM"/>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="O0B-qr-ErM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xCz-qK-FJ3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
