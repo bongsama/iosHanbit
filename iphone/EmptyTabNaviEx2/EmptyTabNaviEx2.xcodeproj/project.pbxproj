@@ -26,6 +26,10 @@
 		13F01E4D18E305F600257340 /* munkeonyoung.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13F01E4618E305F600257340 /* munkeonyoung.jpg */; };
 		13F01E4E18E305F600257340 /* parkminyoung.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13F01E4718E305F600257340 /* parkminyoung.jpg */; };
 		13F01E4F18E305F600257340 /* shinmina2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13F01E4818E305F600257340 /* shinmina2.jpg */; };
+		13F01E5418E3062000257340 /* 06-magnify.png in Resources */ = {isa = PBXBuildFile; fileRef = 13F01E5018E3062000257340 /* 06-magnify.png */; };
+		13F01E5518E3062000257340 /* 08-chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 13F01E5118E3062000257340 /* 08-chat.png */; };
+		13F01E5618E3062000257340 /* 09-chat-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 13F01E5218E3062000257340 /* 09-chat-2.png */; };
+		13F01E5718E3062000257340 /* 10-medical.png in Resources */ = {isa = PBXBuildFile; fileRef = 13F01E5318E3062000257340 /* 10-medical.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +66,10 @@
 		13F01E4618E305F600257340 /* munkeonyoung.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = munkeonyoung.jpg; sourceTree = "<group>"; };
 		13F01E4718E305F600257340 /* parkminyoung.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = parkminyoung.jpg; sourceTree = "<group>"; };
 		13F01E4818E305F600257340 /* shinmina2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shinmina2.jpg; sourceTree = "<group>"; };
+		13F01E5018E3062000257340 /* 06-magnify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "06-magnify.png"; sourceTree = "<group>"; };
+		13F01E5118E3062000257340 /* 08-chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "08-chat.png"; sourceTree = "<group>"; };
+		13F01E5218E3062000257340 /* 09-chat-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "09-chat-2.png"; sourceTree = "<group>"; };
+		13F01E5318E3062000257340 /* 10-medical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "10-medical.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +170,10 @@
 		13F01E4118E305B800257340 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				13F01E5018E3062000257340 /* 06-magnify.png */,
+				13F01E5118E3062000257340 /* 08-chat.png */,
+				13F01E5218E3062000257340 /* 09-chat-2.png */,
+				13F01E5318E3062000257340 /* 10-medical.png */,
 				13F01E4218E305F600257340 /* ayase.jpg */,
 				13F01E4318E305F600257340 /* hyori.jpg */,
 				13F01E4418E305F600257340 /* kangdounwon.jpg */,
@@ -249,12 +261,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				13F01E4D18E305F600257340 /* munkeonyoung.jpg in Resources */,
+				13F01E5718E3062000257340 /* 10-medical.png in Resources */,
+				13F01E5518E3062000257340 /* 08-chat.png in Resources */,
 				13F01E1D18E3058900257340 /* InfoPlist.strings in Resources */,
 				13F01E4F18E305F600257340 /* shinmina2.jpg in Resources */,
+				13F01E5418E3062000257340 /* 06-magnify.png in Resources */,
 				13F01E4C18E305F600257340 /* kimtaehee.jpg in Resources */,
 				13F01E4E18E305F600257340 /* parkminyoung.jpg in Resources */,
 				13F01E4B18E305F600257340 /* kangdounwon.jpg in Resources */,
 				13F01E4918E305F600257340 /* ayase.jpg in Resources */,
+				13F01E5618E3062000257340 /* 09-chat-2.png in Resources */,
 				13F01E2518E3058900257340 /* Images.xcassets in Resources */,
 				13F01E4A18E305F600257340 /* hyori.jpg in Resources */,
 			);
