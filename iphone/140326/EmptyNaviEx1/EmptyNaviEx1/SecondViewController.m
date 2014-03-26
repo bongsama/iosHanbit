@@ -27,6 +27,7 @@
 {
     [super viewDidLoad];
     [_label setText:@"second View"];
+    [_label setFont:[UIFont boldSystemFontOfSize:25]];
     // Do any additional setup after loading the view.
 }
 
