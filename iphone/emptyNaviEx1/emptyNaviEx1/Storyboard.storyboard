@@ -28,7 +28,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="label" destination="lr8-tz-cAv" id="7th-rz-vSl"/>
+                        <outlet property="label" destination="lr8-tz-cAv" id="3bl-1k-6my"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1ju-yv-Jts" userLabel="First Responder" sceneMemberID="firstResponder"/>
