@@ -21,6 +21,9 @@
 		40B1E36A18E1B7ED004B2102 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40B1E34C18E1B7ED004B2102 /* UIKit.framework */; };
 		40B1E37218E1B7ED004B2102 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40B1E37018E1B7ED004B2102 /* InfoPlist.strings */; };
 		40B1E37418E1B7ED004B2102 /* CalcExTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B1E37318E1B7ED004B2102 /* CalcExTests.m */; };
+		40B1E37F18E1B821004B2102 /* btn_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B1E37D18E1B821004B2102 /* btn_01.png */; };
+		40B1E38018E1B821004B2102 /* btn_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B1E37E18E1B821004B2102 /* btn_02.png */; };
+		40B1E38218E1B83C004B2102 /* selected_btn_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B1E38118E1B83C004B2102 /* selected_btn_bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		40B1E36F18E1B7ED004B2102 /* CalcExTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalcExTests-Info.plist"; sourceTree = "<group>"; };
 		40B1E37118E1B7ED004B2102 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		40B1E37318E1B7ED004B2102 /* CalcExTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalcExTests.m; sourceTree = "<group>"; };
+		40B1E37D18E1B821004B2102 /* btn_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_01.png; sourceTree = "<group>"; };
+		40B1E37E18E1B821004B2102 /* btn_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_02.png; sourceTree = "<group>"; };
+		40B1E38118E1B83C004B2102 /* selected_btn_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selected_btn_bg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,9 @@
 		40B1E34E18E1B7ED004B2102 /* CalcEx */ = {
 			isa = PBXGroup;
 			children = (
+				40B1E38118E1B83C004B2102 /* selected_btn_bg.png */,
+				40B1E37D18E1B821004B2102 /* btn_01.png */,
+				40B1E37E18E1B821004B2102 /* btn_02.png */,
 				40B1E35718E1B7ED004B2102 /* AppDelegate.h */,
 				40B1E35818E1B7ED004B2102 /* AppDelegate.m */,
 				40B1E35A18E1B7ED004B2102 /* Main.storyboard */,
@@ -229,7 +238,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				40B1E36118E1B7ED004B2102 /* Images.xcassets in Resources */,
+				40B1E37F18E1B821004B2102 /* btn_01.png in Resources */,
+				40B1E38218E1B83C004B2102 /* selected_btn_bg.png in Resources */,
 				40B1E35318E1B7ED004B2102 /* InfoPlist.strings in Resources */,
+				40B1E38018E1B821004B2102 /* btn_02.png in Resources */,
 				40B1E35C18E1B7ED004B2102 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
