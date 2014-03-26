@@ -21,6 +21,7 @@
 		13122B3318E2F7D100D642F7 /* emptyNaviEx1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13122B3218E2F7D100D642F7 /* emptyNaviEx1Tests.m */; };
 		13122B3D18E2F86400D642F7 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13122B3C18E2F86400D642F7 /* Storyboard.storyboard */; };
 		13122B4318E2FAC500D642F7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13122B4218E2FAC500D642F7 /* FirstViewController.m */; };
+		132C527F18E2FD4C00A130B4 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 132C527E18E2FD4C00A130B4 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		13122B3C18E2F86400D642F7 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		13122B4118E2FAC500D642F7 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		13122B4218E2FAC500D642F7 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		132C527D18E2FD4C00A130B4 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		132C527E18E2FD4C00A130B4 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				13122B3C18E2F86400D642F7 /* Storyboard.storyboard */,
 				13122B4118E2FAC500D642F7 /* FirstViewController.h */,
 				13122B4218E2FAC500D642F7 /* FirstViewController.m */,
+				132C527D18E2FD4C00A130B4 /* SecondViewController.h */,
+				132C527E18E2FD4C00A130B4 /* SecondViewController.m */,
 			);
 			path = emptyNaviEx1;
 			sourceTree = "<group>";
@@ -248,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				132C527F18E2FD4C00A130B4 /* SecondViewController.m in Sources */,
 				13122B1E18E2F7D100D642F7 /* AppDelegate.m in Sources */,
 				13122B4318E2FAC500D642F7 /* FirstViewController.m in Sources */,
 				13122B1A18E2F7D100D642F7 /* main.m in Sources */,
@@ -447,6 +453,7 @@
 				13122B3818E2F7D100D642F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13122B3918E2F7D100D642F7 /* Build configuration list for PBXNativeTarget "emptyNaviEx1Tests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +462,7 @@
 				13122B3B18E2F7D100D642F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
