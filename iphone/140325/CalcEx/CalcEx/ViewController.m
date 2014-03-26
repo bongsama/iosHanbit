@@ -35,6 +35,7 @@
     //출력창값이 0이거나 bFirst가  YES면 새로 찍고, 아니면 추가
     if ([mout isEqualToString:@"0"]|| bFirst){
         [mout setString:title];
+        bFirst = NO;
     }else{
         [mout appendString:title];
     }
@@ -42,6 +43,9 @@
 }
 
 - (IBAction)btnOperator:(UIButton *)sender {
+    NSString    *op = [sender titleForState:UIControlStateNormal];
+    _op = op;
+    bFirst = YES;
 }
 
 - (IBAction)btnClear:(UIButton *)sender {

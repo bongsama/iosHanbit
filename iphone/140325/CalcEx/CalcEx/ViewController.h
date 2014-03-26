@@ -18,5 +18,6 @@
 - (IBAction)btnResult:(UIButton *)sender;
 
 @property (weak, nonatomic) IBOutlet UITextField *tfOut;
+@property (weak, nonatomic) IBOutlet UIButton *op;
 
 @end

@@ -255,6 +255,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="op" destination="h4S-iR-uQ4" id="CRZ-9v-c2E"/>
                         <outlet property="tfOut" destination="yVQ-32-Mjj" id="pQm-J5-kxl"/>
                     </connections>
                 </viewController>
