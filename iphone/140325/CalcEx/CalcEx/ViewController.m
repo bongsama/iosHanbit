@@ -8,7 +8,10 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController (){
+    BOOL    bFirst;
+    BOOL    bDot;
+}
 
 @end
 
@@ -17,6 +20,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    bFirst = YES;
+    bDot = NO;
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -30,5 +35,20 @@
 }
 
 - (IBAction)btnOperator:(UIButton *)sender {
+}
+
+- (IBAction)btnClear:(UIButton *)sender {
+}
+
+- (IBAction)btbSign:(UIButton *)sender {
+}
+
+- (IBAction)btnDel:(UIButton *)sender {
+}
+
+- (IBAction)btnDot:(UIButton *)sender {
+}
+
+- (IBAction)btnResult:(UIButton *)sender {
 }
 @end
