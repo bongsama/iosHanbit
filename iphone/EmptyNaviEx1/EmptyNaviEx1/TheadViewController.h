@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface TheadViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *label;
 
 @end
