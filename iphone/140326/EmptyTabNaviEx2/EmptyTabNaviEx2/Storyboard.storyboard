@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--View Controller - 몰라-->
+        <!--View Controller-->
         <scene sceneID="zE3-aF-r1J">
             <objects>
                 <viewController id="dqJ-Xq-g9H" sceneMemberID="viewController">
@@ -24,12 +24,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="몰라" image="25-weather.png" id="Ksu-LF-Cn6"/>
-                    <navigationItem key="navigationItem" id="cOa-Lj-iid"/>
+                    <navigationItem key="navigationItem" id="IXk-wZ-gAX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FDi-cL-Jym" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="564" y="-2"/>
+            <point key="canvasLocation" x="1090" y="-2"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="qg6-Xu-F6z">
@@ -43,29 +42,13 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
+                        <segue destination="Yfc-8r-f0q" kind="relationship" relationship="viewControllers" id="p7b-y3-zNo"/>
                         <segue destination="L6K-af-PHq" kind="relationship" relationship="viewControllers" id="UgZ-cQ-zgD"/>
                         <segue destination="z01-lI-BKg" kind="relationship" relationship="viewControllers" id="ZG4-B1-zr3"/>
-                        <segue destination="n8u-pb-nMo" kind="relationship" relationship="viewControllers" id="8hM-6s-5eY"/>
                     </connections>
                 </tabBarController>
             </objects>
             <point key="canvasLocation" x="-696" y="317"/>
-        </scene>
-        <!--Navigation Controller - Item-->
-        <scene sceneID="v6z-JY-war">
-            <objects>
-                <navigationController definesPresentationContext="YES" id="n8u-pb-nMo" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="SWb-R1-Kfz"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MpK-Tp-6hS">
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="dqJ-Xq-g9H" kind="relationship" relationship="rootViewController" id="CwL-va-yFI"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="f5G-EX-klE" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-47" y="-154"/>
         </scene>
         <!--View Controller - 설정-->
         <scene sceneID="AR4-rT-5iL">
@@ -117,24 +100,24 @@
             </objects>
             <point key="canvasLocation" x="564" y="651"/>
         </scene>
-        <!--View Controller - Item-->
-        <scene sceneID="6PB-bT-lev">
+        <!--Navigation Controller - 몰라-->
+        <scene sceneID="Hw8-Ke-K3w">
             <objects>
-                <viewController id="JIn-Ei-4e9" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="fU2-tz-Kae"/>
-                        <viewControllerLayoutGuide type="bottom" id="PWz-Zl-QKv"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="b04-sW-b6g">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="rm2-9Z-yHV"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lsq-Q0-jla" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Yfc-8r-f0q" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="몰라" image="25-weather.png" id="Ksu-LF-Cn6"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="SFa-l4-M7K">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="dqJ-Xq-g9H" kind="relationship" relationship="rootViewController" id="QaI-Ts-S9c"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xTu-uz-cEJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-196" y="1395"/>
+            <point key="canvasLocation" x="564" y="-2"/>
         </scene>
     </scenes>
     <resources>
