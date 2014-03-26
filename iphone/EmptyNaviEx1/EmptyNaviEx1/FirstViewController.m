@@ -32,6 +32,10 @@
     
     [_label setTextColor:[UIColor blueColor]];
     [_label setText:@"아무거나"];
+    
+    //네비게이션
+    self.navigationitem.titleView
+    
 }
 
 - (void)didReceiveMemoryWarning
