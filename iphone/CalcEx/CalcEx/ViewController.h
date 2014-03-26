@@ -14,7 +14,7 @@
     BOOL bDot;
     double su1, su2;
 }
-//@property (nonatomic,copy)
+@property (nonatomic,copy) NSString *op;
 
 
 - (IBAction)btnNumeric:(UIButton *)sender;
