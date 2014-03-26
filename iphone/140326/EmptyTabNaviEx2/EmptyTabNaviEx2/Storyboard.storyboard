@@ -24,7 +24,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="IXk-wZ-gAX"/>
+                    <navigationItem key="navigationItem" id="IXk-wZ-gAX">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="bC7-BP-Tn7">
+                            <connections>
+                                <segue destination="O6s-Ag-llj" kind="push" id="4Te-Dj-aWV"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FDi-cL-Jym" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -113,6 +119,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="tHx-sB-irG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q3b-Xk-xge" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
