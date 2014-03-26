@@ -29,6 +29,10 @@
     [_label setText:@"second View"];
     [_label setFont:[UIFont boldSystemFontOfSize:25]];
     // Do any additional setup after loading the view.
+    
+    //네비게이션
+    self.navigationItem.title=@"First";
+    
 }
 
 - (void)didReceiveMemoryWarning
