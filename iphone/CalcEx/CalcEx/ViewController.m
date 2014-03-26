@@ -33,7 +33,7 @@
     //버튼 연산자
     NSString *op=[sender titleForState:UIControlStateNormal];
     self.op=op;
-    bFirst=1;
+    bFirst=1;//연산자 누른후 첫숫자는 새롭게 찍기
 }
 
 - (IBAction)btnNumeric:(UIButton *)sender {
