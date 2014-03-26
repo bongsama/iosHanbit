@@ -39,6 +39,9 @@
     }else{
         [mout appendString:title];
     }
+    
+    //다시 출력창에 출력
+    _tfOut.text=mout;
 }
 
 - (IBAction)btnOperator:(UIButton *)sender {
