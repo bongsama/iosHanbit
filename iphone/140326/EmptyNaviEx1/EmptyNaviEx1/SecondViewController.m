@@ -31,7 +31,7 @@
     // Do any additional setup after loading the view.
     
     //네이게이션 타이틀
-    self.navigationItem.title = 
+    self.navigationItem.title = @"처음";
 }
 
 - (void)didReceiveMemoryWarning
