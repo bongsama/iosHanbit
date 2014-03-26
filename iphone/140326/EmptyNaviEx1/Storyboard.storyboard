@@ -97,7 +97,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" patternImage="127983DC-14EE-4D3D-A568-778518E4CBC7" colorSpace="pattern"/>
+                        <color key="backgroundColor" patternImage="18143404-0955-4A57-A9C5-ADD745F1B4D5" colorSpace="pattern"/>
                     </view>
                     <navigationItem key="navigationItem" id="Rpn-8P-tH9"/>
                     <connections>
@@ -128,7 +128,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="127983DC-14EE-4D3D-A568-778518E4CBC7" width="256" height="256">
+        <image name="18143404-0955-4A57-A9C5-ADD745F1B4D5" width="256" height="256">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
