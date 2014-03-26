@@ -9,11 +9,20 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-- (IBAction)btnNumeric:(id)sender;
-- (IBAction)btnOperator:(id)sender;
+{
+    BOOL bFirst;
+    double su1, su2;
+}
+
+- (IBAction)btnNumeric:(UIButton *)sender;
+- (IBAction)btnOperator:(UIButton *)sender;
+
+
 - (IBAction)btnClear:(id)sender;
 - (IBAction)btnSign:(id)sender;
 - (IBAction)btnDel:(id)sender;
 - (IBAction)btnResult:(id)sender;
+
+
 
 @end
