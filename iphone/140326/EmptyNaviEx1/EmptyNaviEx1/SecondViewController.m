@@ -30,7 +30,7 @@
     [_label setFont:[UIFont boldSystemFontOfSize:25]];
     // Do any additional setup after loading the view.
     
-    //네이게이션
+    //네이게이션 타이틀
     self.navigationItem.title = 
 }
 
