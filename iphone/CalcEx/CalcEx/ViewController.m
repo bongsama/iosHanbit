@@ -74,6 +74,9 @@
     NSString *substr=[str substringToIndex:len-1];
     if([substr length]==0)
         substr=@"0";
+    
+    //다시 출력
+    _tfOut.text=substr;
 }
 
 - (IBAction)btnResult:(id)sender {
