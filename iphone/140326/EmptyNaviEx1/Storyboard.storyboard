@@ -30,7 +30,7 @@
                     <navigationItem key="navigationItem" id="j0o-Jg-SRp">
                         <barButtonItem key="rightBarButtonItem" title="Next" id="oqf-RH-4X3">
                             <connections>
-                                <segue destination="OQP-Lu-lOl" kind="push" id="RJt-fx-Vif"/>
+                                <segue destination="OQP-Lu-lOl" kind="push" id="ZO1-SJ-BMV"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -40,7 +40,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JOa-Eo-Omw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="786" y="50"/>
+            <point key="canvasLocation" x="636" y="50"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="S3h-03-a6a">
@@ -59,7 +59,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QaE-G8-OHo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1188" y="50"/>
+            <point key="canvasLocation" x="1016" y="50"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="R3I-mQ-UPM">
