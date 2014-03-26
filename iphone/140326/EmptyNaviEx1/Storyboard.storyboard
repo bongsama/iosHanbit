@@ -27,7 +27,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.1234627824" blue="0.062120964020000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="j0o-Jg-SRp"/>
+                    <navigationItem key="navigationItem" id="j0o-Jg-SRp">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="oqf-RH-4X3">
+                            <connections>
+                                <segue destination="OQP-Lu-lOl" kind="push" id="RJt-fx-Vif"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="label" destination="jOF-LC-WTF" id="M5J-i5-iPC"/>
                     </connections>
@@ -49,6 +55,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" red="0.54985965024870009" green="0.42490695139516166" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="jZg-wL-9fZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QaE-G8-OHo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
