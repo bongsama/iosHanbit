@@ -23,7 +23,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="P27-tG-lN3"/>
+                    <navigationItem key="navigationItem" id="P27-tG-lN3">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="gjf-d7-Ous">
+                            <connections>
+                                <segue destination="NuO-4z-TNy" kind="push" id="1Zb-42-pTM"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JXY-9L-Nx3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -118,9 +124,35 @@
             </objects>
             <point key="canvasLocation" x="367" y="-295"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="UaA-JC-veE">
+            <objects>
+                <viewController id="NuO-4z-TNy" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LfS-uz-edk"/>
+                        <viewControllerLayoutGuide type="bottom" id="Rsw-5W-oRh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hjn-ci-Zwz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kangdounwon.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="nTn-qB-FW6">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="518"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fil-KO-Rdh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mmI-zT-g7V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="838" y="-1026"/>
+        </scene>
     </scenes>
     <resources>
         <image name="06-magnify.png" width="24" height="24"/>
+        <image name="kangdounwon.jpg" width="640" height="960"/>
         <image name="kimtaehee.jpg" width="640" height="960"/>
         <image name="parkminyoung.jpg" width="640" height="960"/>
         <image name="shinmina2.jpg" width="640" height="960"/>
