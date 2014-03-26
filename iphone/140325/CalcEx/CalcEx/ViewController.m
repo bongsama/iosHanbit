@@ -49,6 +49,10 @@
 }
 
 - (IBAction)btnClear:(UIButton *)sender {
+    _tfOut.text = @"0";
+    bFirst = YES;
+    bDot = NO;
+    op = "";
 }
 
 - (IBAction)btbSign:(UIButton *)sender {
