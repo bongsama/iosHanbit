@@ -64,8 +64,13 @@
 
 - (IBAction)btnDel:(UIButton *)sender {
     NSString *str = [_tfOut text];
-    NSInteger  len = [str length];
-    NSString    *substr = [str substringFromIndex:<#(NSUInteger)#>]
+    NSString    *substr = [str substringFromIndex:[str length]-1];
+    //추출된 숫자의 길이가 0이면 숫자0출력
+    if([substr length] ==0){
+        substr = @"0";
+    }
+    //다시출력
+    [_tfOut setText:substr];
     
 }
 
