@@ -70,7 +70,7 @@
     if([str characterAtIndex:len-1] == '.'){
         bDot = NO;
     };
-    NSString    *substr = [str substringFromIndex: len-1];
+    NSString    *substr = [str substringToIndex: len-1];
     //추출된 숫자의 길이가 0이면 숫자0출력
     if([substr length] ==0){
         substr = @"0";
