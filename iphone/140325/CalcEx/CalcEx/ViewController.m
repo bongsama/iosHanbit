@@ -26,4 +26,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)btnNumeric:(UIButton *)sender {
+}
+
+- (IBAction)btnOperator:(UIButton *)sender {
+}
 @end
