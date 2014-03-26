@@ -71,7 +71,8 @@
     NSString *str=_tfOut.text;
     NSInteger len=[str length];
     //추출전 마지막 값이 도트면 bDot를 NO로
-    
+    if([str characterAtIndex:len-1]=='.')
+        bDot=NO;
     
     //전체길이에서 1개를 뺀 숫자를 추출
     NSString *substr=[str substringToIndex:len-1];
