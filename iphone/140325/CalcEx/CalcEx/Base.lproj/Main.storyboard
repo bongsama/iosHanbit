@@ -134,7 +134,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="btnNumeric:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="aMS-GK-pzm"/>
+                                    <action selector="btnDot:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="n6T-Nc-ELp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="108" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JHQ-vP-5UD">
@@ -144,6 +144,9 @@
                                 <state key="normal" title="C">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnClear:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="74p-ur-aWI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="110" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hQb-Rf-aMA">
                                 <rect key="frame" x="250" y="500" width="30" height="33"/>
@@ -153,7 +156,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="btnNumeric:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="lO6-Ed-48W"/>
+                                    <action selector="btnResult:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="fZH-I3-MHX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="100" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WCs-7Q-Fqy">
@@ -174,6 +177,9 @@
                                 <state key="normal" title="&lt;">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnDel:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nwD-AH-rnV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="101" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tsg-qE-4n9">
                                 <rect key="frame" x="103" y="157" width="30" height="33"/>
@@ -204,6 +210,9 @@
                                 <state key="normal" title="+/-">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="btbSign:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="yCh-YZ-RC9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="104" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4S-iR-uQ4">
                                 <rect key="frame" x="250" y="156" width="30" height="33"/>
@@ -216,12 +225,13 @@
                                     <action selector="btnOperator:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="pCH-MX-ZZW"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xi5-PJ-ODM">
-                                <rect key="frame" x="40" y="94" width="209" height="30"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FlK-g0-3qu">
+                                <rect key="frame" x="28" y="97" width="214" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -244,13 +254,6 @@
                             <constraint firstItem="53W-uW-yoC" firstAttribute="top" secondItem="AdL-n3-3MH" secondAttribute="bottom" constant="22" id="yKy-er-tZM"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="btbSign" destination="Pbs-K1-byz" id="DN7-dJ-mY6"/>
-                        <outlet property="btnClear" destination="JHQ-vP-5UD" id="VVe-tR-n9v"/>
-                        <outlet property="btnDel" destination="w0K-cb-46Q" id="J3C-bc-fce"/>
-                        <outlet property="btnDot" destination="jHk-L6-SwM" id="JRy-B9-va2"/>
-                        <outlet property="btnResult" destination="hQb-Rf-aMA" id="ayU-pC-zpz"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

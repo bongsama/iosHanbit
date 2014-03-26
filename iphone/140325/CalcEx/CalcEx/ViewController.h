@@ -11,10 +11,11 @@
 @interface ViewController : UIViewController
 - (IBAction)btnNumeric:(UIButton *)sender;
 - (IBAction)btnOperator:(UIButton *)sender;
-@property (weak, nonatomic) IBOutlet UIButton *btnClear;
-@property (weak, nonatomic) IBOutlet UIButton *btbSign;
-@property (weak, nonatomic) IBOutlet UIButton *btnDel;
-@property (weak, nonatomic) IBOutlet UIButton *btnDot;
-@property (weak, nonatomic) IBOutlet UIButton *btnResult;
+- (IBAction)btnClear:(UIButton *)sender;
+- (IBAction)btbSign:(UIButton *)sender;
+- (IBAction)btnDel:(UIButton *)sender;
+- (IBAction)btnDot:(UIButton *)sender;
+- (IBAction)btnResult:(UIButton *)sender;
+
 
 @end
