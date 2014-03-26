@@ -71,4 +71,7 @@
 
 - (IBAction)btnResult:(id)sender {
 }
+
+- (IBAction)btDot:(id)sender {
+}
 @end
