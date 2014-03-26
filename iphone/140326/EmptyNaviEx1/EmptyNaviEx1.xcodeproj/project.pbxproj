@@ -20,6 +20,7 @@
 		4066402A18E2F7A800FC99F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4066402818E2F7A800FC99F6 /* InfoPlist.strings */; };
 		4066402C18E2F7A800FC99F6 /* EmptyNaviEx1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4066402B18E2F7A800FC99F6 /* EmptyNaviEx1Tests.m */; };
 		4066403618E2F87300FC99F6 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4066403518E2F87300FC99F6 /* Storyboard.storyboard */; };
+		4066403918E2F93E00FC99F6 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4066403818E2F93E00FC99F6 /* FirstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		4066402918E2F7A800FC99F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4066402B18E2F7A800FC99F6 /* EmptyNaviEx1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmptyNaviEx1Tests.m; sourceTree = "<group>"; };
 		4066403518E2F87300FC99F6 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
+		4066403718E2F93E00FC99F6 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		4066403818E2F93E00FC99F6 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				4066401618E2F7A800FC99F6 /* AppDelegate.m */,
 				4066401818E2F7A800FC99F6 /* Images.xcassets */,
 				4066400D18E2F7A800FC99F6 /* Supporting Files */,
+				4066403718E2F93E00FC99F6 /* FirstViewController.h */,
+				4066403818E2F93E00FC99F6 /* FirstViewController.m */,
 			);
 			path = EmptyNaviEx1;
 			sourceTree = "<group>";
@@ -244,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4066401718E2F7A800FC99F6 /* AppDelegate.m in Sources */,
+				4066403918E2F93E00FC99F6 /* FirstViewController.m in Sources */,
 				4066401318E2F7A800FC99F6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
