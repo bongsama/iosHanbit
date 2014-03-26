@@ -19,6 +19,7 @@
 		4066402218E2F7A800FC99F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4066400A18E2F7A800FC99F6 /* UIKit.framework */; };
 		4066402A18E2F7A800FC99F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4066402818E2F7A800FC99F6 /* InfoPlist.strings */; };
 		4066402C18E2F7A800FC99F6 /* EmptyNaviEx1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4066402B18E2F7A800FC99F6 /* EmptyNaviEx1Tests.m */; };
+		4066403618E2F87300FC99F6 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4066403518E2F87300FC99F6 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		4066402718E2F7A800FC99F6 /* EmptyNaviEx1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmptyNaviEx1Tests-Info.plist"; sourceTree = "<group>"; };
 		4066402918E2F7A800FC99F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4066402B18E2F7A800FC99F6 /* EmptyNaviEx1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmptyNaviEx1Tests.m; sourceTree = "<group>"; };
+		4066403518E2F87300FC99F6 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		40663FFA18E2F7A800FC99F6 = {
 			isa = PBXGroup;
 			children = (
+				4066403518E2F87300FC99F6 /* Storyboard.storyboard */,
 				4066400C18E2F7A800FC99F6 /* EmptyNaviEx1 */,
 				4066402518E2F7A800FC99F6 /* EmptyNaviEx1Tests */,
 				4066400518E2F7A800FC99F6 /* Frameworks */,
@@ -221,6 +224,7 @@
 			files = (
 				4066401118E2F7A800FC99F6 /* InfoPlist.strings in Resources */,
 				4066401918E2F7A800FC99F6 /* Images.xcassets in Resources */,
+				4066403618E2F87300FC99F6 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
