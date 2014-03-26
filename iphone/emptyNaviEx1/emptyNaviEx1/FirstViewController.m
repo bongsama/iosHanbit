@@ -10,5 +10,8 @@
 
 @implementation FirstViewController
 
-- (void)viewDi
+- (void)viewDidLoad{
+    [super viewDidLoad];
+  _label.text=@"First Veiw";
+}
 @end
