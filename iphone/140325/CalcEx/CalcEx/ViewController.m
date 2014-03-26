@@ -52,7 +52,7 @@
     _tfOut.text = @"0";
     bFirst = YES;
     bDot = NO;
-    op = "";
+    _op = @"";
 }
 
 - (IBAction)btbSign:(UIButton *)sender {
