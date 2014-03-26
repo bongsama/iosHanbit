@@ -71,8 +71,9 @@
     NSString *str=_tfOut.text;
     NSInteger len=[str length];
 
-    //전체길이에서
+    //전체길이에서 1개를 뺀 숫자를 추출
     NSString *substr=[str substringToIndex:len-1];
+    //추출된 숫자의 길이가 0 이면 숫자0추출
     if([substr length]==0)
         substr=@"0";
     
