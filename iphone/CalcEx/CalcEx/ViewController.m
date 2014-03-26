@@ -68,6 +68,7 @@
 }
 
 - (IBAction)btnDel:(id)sender {
+    
 }
 
 - (IBAction)btnResult:(id)sender {
