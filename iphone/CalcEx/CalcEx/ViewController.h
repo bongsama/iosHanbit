@@ -11,8 +11,11 @@
 @interface ViewController : UIViewController
 {
     BOOL bFirst;
+    BOOl bDot;
     double su1, su2;
 }
+//@property (nonatomic,copy)
+
 
 - (IBAction)btnNumeric:(UIButton *)sender;
 - (IBAction)btnOperator:(UIButton *)sender;
