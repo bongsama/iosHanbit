@@ -68,7 +68,8 @@
 }
 
 - (IBAction)btnDel:(id)sender {
-    
+    NSString *str=[_tfOut.text];
+    NSInteger len=[str length];
 }
 
 - (IBAction)btnResult:(id)sender {
