@@ -33,6 +33,18 @@
 }
 
 - (IBAction)btnNumeric:(UIButton *)sender {
+    //버튼 숫자
+    NSString *title=[sender titleForState:UIControlStateNormal];
+    NSMutableString *mout=[NSMutableString stringWithString:_tfOut.text];
+    if([mout isEqualToString:@"0"] || bFirst)
+    {
+        [mout setString:title];
+    }else{
+        [mout appendString:title];
+    }
+    
+    //다시 출력창에 출력
+    _tfOut.text=mout;
 }
 
 - (IBAction)btnClear:(id)sender {
