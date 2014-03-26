@@ -30,6 +30,9 @@
 }
 
 - (IBAction)btnOperator:(UIButton *)sender {
+    //버튼 연산자
+    NSString *op=[sender titleForState:UIControlStateNormal];
+    
 }
 
 - (IBAction)btnNumeric:(UIButton *)sender {
