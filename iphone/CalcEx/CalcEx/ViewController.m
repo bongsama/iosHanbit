@@ -39,6 +39,7 @@
     if([mout isEqualToString:@"0"] || bFirst)
     {
         [mout setString:title];
+        bFirst=NO;
     }else{
         [mout appendString:title];
     }
