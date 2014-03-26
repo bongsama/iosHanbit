@@ -26,6 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [_label setText:@"second View"];
     // Do any additional setup after loading the view.
 }
 
