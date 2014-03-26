@@ -11,6 +11,7 @@
 @interface ViewController (){
     BOOL    bFirst;
     BOOL    bDot;
+    double  su1,su2;
 }
 
 @end
