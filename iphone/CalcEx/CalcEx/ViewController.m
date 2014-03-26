@@ -68,7 +68,7 @@
 }
 
 - (IBAction)btnDel:(id)sender {
-    NSString *str=[_tfOut.text];
+    NSString *str=_tfOut.text;
     NSInteger len=[str length];
     NSString *substr=[str substringToIndex:len-1];
     
