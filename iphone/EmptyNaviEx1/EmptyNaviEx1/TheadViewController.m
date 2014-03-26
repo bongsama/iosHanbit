@@ -28,6 +28,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [_label setText:@"Third View"];
+    [_label setFont:[UIFont boldSystemFontOfSize:25]];
     //네비게이션
     self.navigationItem.title=@"First";
     
