@@ -27,6 +27,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [_label setText:@"아무거나"];
 }
 
 - (void)didReceiveMemoryWarning
