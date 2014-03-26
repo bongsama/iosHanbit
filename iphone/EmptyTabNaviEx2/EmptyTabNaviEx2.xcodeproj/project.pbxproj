@@ -19,6 +19,13 @@
 		13F01E2E18E3058900257340 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F01E1618E3058900257340 /* UIKit.framework */; };
 		13F01E3618E3058900257340 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13F01E3418E3058900257340 /* InfoPlist.strings */; };
 		13F01E3818E3058900257340 /* EmptyTabNaviEx2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F01E3718E3058900257340 /* EmptyTabNaviEx2Tests.m */; };
+		13F01E4918E305F600257340 /* ayase.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13F01E4218E305F600257340 /* ayase.jpg */; };
+		13F01E4A18E305F600257340 /* hyori.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13F01E4318E305F600257340 /* hyori.jpg */; };
+		13F01E4B18E305F600257340 /* kangdounwon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13F01E4418E305F600257340 /* kangdounwon.jpg */; };
+		13F01E4C18E305F600257340 /* kimtaehee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13F01E4518E305F600257340 /* kimtaehee.jpg */; };
+		13F01E4D18E305F600257340 /* munkeonyoung.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13F01E4618E305F600257340 /* munkeonyoung.jpg */; };
+		13F01E4E18E305F600257340 /* parkminyoung.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13F01E4718E305F600257340 /* parkminyoung.jpg */; };
+		13F01E4F18E305F600257340 /* shinmina2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13F01E4818E305F600257340 /* shinmina2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,13 @@
 		13F01E3318E3058900257340 /* EmptyTabNaviEx2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmptyTabNaviEx2Tests-Info.plist"; sourceTree = "<group>"; };
 		13F01E3518E3058900257340 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		13F01E3718E3058900257340 /* EmptyTabNaviEx2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmptyTabNaviEx2Tests.m; sourceTree = "<group>"; };
+		13F01E4218E305F600257340 /* ayase.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ayase.jpg; sourceTree = "<group>"; };
+		13F01E4318E305F600257340 /* hyori.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hyori.jpg; sourceTree = "<group>"; };
+		13F01E4418E305F600257340 /* kangdounwon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kangdounwon.jpg; sourceTree = "<group>"; };
+		13F01E4518E305F600257340 /* kimtaehee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kimtaehee.jpg; sourceTree = "<group>"; };
+		13F01E4618E305F600257340 /* munkeonyoung.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = munkeonyoung.jpg; sourceTree = "<group>"; };
+		13F01E4718E305F600257340 /* parkminyoung.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = parkminyoung.jpg; sourceTree = "<group>"; };
+		13F01E4818E305F600257340 /* shinmina2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shinmina2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +162,13 @@
 		13F01E4118E305B800257340 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				13F01E4218E305F600257340 /* ayase.jpg */,
+				13F01E4318E305F600257340 /* hyori.jpg */,
+				13F01E4418E305F600257340 /* kangdounwon.jpg */,
+				13F01E4518E305F600257340 /* kimtaehee.jpg */,
+				13F01E4618E305F600257340 /* munkeonyoung.jpg */,
+				13F01E4718E305F600257340 /* parkminyoung.jpg */,
+				13F01E4818E305F600257340 /* shinmina2.jpg */,
 			);
 			name = image;
 			sourceTree = "<group>";
@@ -227,8 +248,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13F01E4D18E305F600257340 /* munkeonyoung.jpg in Resources */,
 				13F01E1D18E3058900257340 /* InfoPlist.strings in Resources */,
+				13F01E4F18E305F600257340 /* shinmina2.jpg in Resources */,
+				13F01E4C18E305F600257340 /* kimtaehee.jpg in Resources */,
+				13F01E4E18E305F600257340 /* parkminyoung.jpg in Resources */,
+				13F01E4B18E305F600257340 /* kangdounwon.jpg in Resources */,
+				13F01E4918E305F600257340 /* ayase.jpg in Resources */,
 				13F01E2518E3058900257340 /* Images.xcassets in Resources */,
+				13F01E4A18E305F600257340 /* hyori.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
