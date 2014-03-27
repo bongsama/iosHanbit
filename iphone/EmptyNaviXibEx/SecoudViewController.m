@@ -27,6 +27,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    UIBarButtonItem *barBtn=[[UIBarButtonItem alloc] initWithTitle:@"Second" style:UIBarButtonItemStylePlain target:self action:@selector(nextView)];
 }
 
 - (void)didReceiveMemoryWarning
