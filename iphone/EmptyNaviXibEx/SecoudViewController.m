@@ -29,8 +29,6 @@
     [super viewDidLoad];
 
     
-    self.navigationItem.title=@"소희";
-    
     
 }
 
