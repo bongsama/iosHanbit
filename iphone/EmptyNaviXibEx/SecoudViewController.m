@@ -23,11 +23,6 @@
     return self;
 }
 
--(void)nextView
-{
-    SecoudViewController *secondView=[[SecoudViewController alloc]initWithNibName:@"SecondViewController" bundle:nil];
-    [self.navigationController pushViewController:secondView animated:1];
-}
 
 - (void)viewDidLoad
 {
