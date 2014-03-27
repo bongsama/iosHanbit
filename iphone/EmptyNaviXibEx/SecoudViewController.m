@@ -36,6 +36,10 @@
     UIBarButtonItem *barBtn=[[UIBarButtonItem alloc] initWithTitle:@"Second" style:UIBarButtonItemStylePlain target:self action:@selector(nextView)];
     //네비게이션바의 우측에 바버튼 추가
     self.navigationItem.rightBarButtonItem=barBtn;
+    
+    self.navigationItem.title=@"소희"
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
