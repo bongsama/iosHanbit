@@ -28,6 +28,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     UIBarButtonItem *barBtn=[[UIBarButtonItem alloc] initWithTitle:@"Second" style:UIBarButtonItemStylePlain target:self action:@selector(nextView)];
+    //네비게이션바의 우측에 바버튼 추가
+    self.navigationItem.rightBarButtonItem=barBtn;
 }
 
 - (void)didReceiveMemoryWarning
