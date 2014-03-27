@@ -28,6 +28,8 @@
 		13CA184818E4364B0004EA7B /* shinmina2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13CA184118E4364B0004EA7B /* shinmina2.jpg */; };
 		13CA184C18E436B50004EA7B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CA184A18E436B50004EA7B /* FirstViewController.m */; };
 		13CA184D18E436B50004EA7B /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13CA184B18E436B50004EA7B /* FirstViewController.xib */; };
+		13CA185118E43B2B0004EA7B /* SecoudViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CA184F18E43B2B0004EA7B /* SecoudViewController.m */; };
+		13CA185218E43B2B0004EA7B /* SecoudViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13CA185018E43B2B0004EA7B /* SecoudViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,9 @@
 		13CA184918E436B50004EA7B /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		13CA184A18E436B50004EA7B /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		13CA184B18E436B50004EA7B /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		13CA184E18E43B2B0004EA7B /* SecoudViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecoudViewController.h; sourceTree = "<group>"; };
+		13CA184F18E43B2B0004EA7B /* SecoudViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecoudViewController.m; sourceTree = "<group>"; };
+		13CA185018E43B2B0004EA7B /* SecoudViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecoudViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +101,9 @@
 		13CA17FF18E435F70004EA7B = {
 			isa = PBXGroup;
 			children = (
+				13CA184E18E43B2B0004EA7B /* SecoudViewController.h */,
+				13CA184F18E43B2B0004EA7B /* SecoudViewController.m */,
+				13CA185018E43B2B0004EA7B /* SecoudViewController.xib */,
 				13CA184918E436B50004EA7B /* FirstViewController.h */,
 				13CA184A18E436B50004EA7B /* FirstViewController.m */,
 				13CA184B18E436B50004EA7B /* FirstViewController.xib */,
@@ -262,6 +270,7 @@
 				13CA184818E4364B0004EA7B /* shinmina2.jpg in Resources */,
 				13CA184518E4364B0004EA7B /* kimtaehee.jpg in Resources */,
 				13CA184718E4364B0004EA7B /* parkminyoung.jpg in Resources */,
+				13CA185218E43B2B0004EA7B /* SecoudViewController.xib in Resources */,
 				13CA184418E4364B0004EA7B /* kangdounwon.jpg in Resources */,
 				13CA184218E4364B0004EA7B /* ayase.jpg in Resources */,
 				13CA181E18E435F70004EA7B /* Images.xcassets in Resources */,
@@ -287,6 +296,7 @@
 				13CA181C18E435F70004EA7B /* AppDelegate.m in Sources */,
 				13CA184C18E436B50004EA7B /* FirstViewController.m in Sources */,
 				13CA181818E435F70004EA7B /* main.m in Sources */,
+				13CA185118E43B2B0004EA7B /* SecoudViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +493,7 @@
 				13CA183618E435F70004EA7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13CA183718E435F70004EA7B /* Build configuration list for PBXNativeTarget "EmptyNaviXibExTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +502,7 @@
 				13CA183918E435F70004EA7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
