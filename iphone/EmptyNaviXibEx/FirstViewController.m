@@ -7,7 +7,7 @@
 //
 
 #import "FirstViewController.h"
-
+#import "SecoudViewController.h"
 @interface FirstViewController ()
 
 @end
@@ -26,6 +26,7 @@
 -(void)nextView
 {
     SecoudViewController *secondView=[[SecoudViewController alloc]initWithNibName:@"SecondViewController" bundle:nil];
+    
     [self.navigationController pushViewController:secondView animated:1];
 }
 
