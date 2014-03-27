@@ -24,7 +24,7 @@
     UINavigationController *naviCont=[[UINavigationController alloc] initWithRootViewController:_firstView];
     
     //윈도우의 기본뷰를 FirstView로 지정
-    _window.rootViewController=_firstView;
+    _window.rootViewController=naviCont;
     
     return YES;
 }
