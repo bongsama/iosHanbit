@@ -107,7 +107,7 @@
 		13CA181118E435F70004EA7B /* EmptyNaviXibEx */ = {
 			isa = PBXGroup;
 			children = (
-				13CA183A18E4360D0004EA7B /* New Group */,
+				13CA183A18E4360D0004EA7B /* image */,
 				13CA181A18E435F70004EA7B /* AppDelegate.h */,
 				13CA181B18E435F70004EA7B /* AppDelegate.m */,
 				13CA181D18E435F70004EA7B /* Images.xcassets */,
@@ -145,11 +145,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13CA183A18E4360D0004EA7B /* New Group */ = {
+		13CA183A18E4360D0004EA7B /* image */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = "New Group";
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
