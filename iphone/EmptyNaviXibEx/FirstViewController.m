@@ -23,11 +23,25 @@
     return self;
 }
 
+-(void)nextView
+{
+    SecoudViewController *secondView=[[SecoudViewController alloc]initWithNibName:@"SecondViewController" bundle:nil];
+    [self.navigationController pushViewController:secondView animated:1];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    UIBarButtonItem *barBtn=[[UIBarButtonItem alloc] initWithTitle:@"Second" style:UIBarButtonItemStylePlain target:self action:@selector(nextView)];
+    //네비게이션바의 우측에 바버튼 추가
+    self.navigationItem.rightBarButtonItem=barBtn;
+    
+    self.navigationItem.title=@"소희";
+    
+    
 }
+
 
 - (void)didReceiveMemoryWarning
 {
