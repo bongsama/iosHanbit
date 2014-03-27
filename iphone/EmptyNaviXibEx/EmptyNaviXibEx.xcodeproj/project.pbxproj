@@ -19,6 +19,13 @@
 		13CA182718E435F70004EA7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CA180F18E435F70004EA7B /* UIKit.framework */; };
 		13CA182F18E435F70004EA7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13CA182D18E435F70004EA7B /* InfoPlist.strings */; };
 		13CA183118E435F70004EA7B /* EmptyNaviXibExTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CA183018E435F70004EA7B /* EmptyNaviXibExTests.m */; };
+		13CA184218E4364B0004EA7B /* ayase.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13CA183B18E4364B0004EA7B /* ayase.jpg */; };
+		13CA184318E4364B0004EA7B /* hyori.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13CA183C18E4364B0004EA7B /* hyori.jpg */; };
+		13CA184418E4364B0004EA7B /* kangdounwon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13CA183D18E4364B0004EA7B /* kangdounwon.jpg */; };
+		13CA184518E4364B0004EA7B /* kimtaehee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13CA183E18E4364B0004EA7B /* kimtaehee.jpg */; };
+		13CA184618E4364B0004EA7B /* munkeonyoung.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13CA183F18E4364B0004EA7B /* munkeonyoung.jpg */; };
+		13CA184718E4364B0004EA7B /* parkminyoung.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13CA184018E4364B0004EA7B /* parkminyoung.jpg */; };
+		13CA184818E4364B0004EA7B /* shinmina2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13CA184118E4364B0004EA7B /* shinmina2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,13 @@
 		13CA182C18E435F70004EA7B /* EmptyNaviXibExTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmptyNaviXibExTests-Info.plist"; sourceTree = "<group>"; };
 		13CA182E18E435F70004EA7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		13CA183018E435F70004EA7B /* EmptyNaviXibExTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmptyNaviXibExTests.m; sourceTree = "<group>"; };
+		13CA183B18E4364B0004EA7B /* ayase.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ayase.jpg; sourceTree = "<group>"; };
+		13CA183C18E4364B0004EA7B /* hyori.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hyori.jpg; sourceTree = "<group>"; };
+		13CA183D18E4364B0004EA7B /* kangdounwon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kangdounwon.jpg; sourceTree = "<group>"; };
+		13CA183E18E4364B0004EA7B /* kimtaehee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kimtaehee.jpg; sourceTree = "<group>"; };
+		13CA183F18E4364B0004EA7B /* munkeonyoung.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = munkeonyoung.jpg; sourceTree = "<group>"; };
+		13CA184018E4364B0004EA7B /* parkminyoung.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = parkminyoung.jpg; sourceTree = "<group>"; };
+		13CA184118E4364B0004EA7B /* shinmina2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shinmina2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +162,13 @@
 		13CA183A18E4360D0004EA7B /* image */ = {
 			isa = PBXGroup;
 			children = (
+				13CA183B18E4364B0004EA7B /* ayase.jpg */,
+				13CA183C18E4364B0004EA7B /* hyori.jpg */,
+				13CA183D18E4364B0004EA7B /* kangdounwon.jpg */,
+				13CA183E18E4364B0004EA7B /* kimtaehee.jpg */,
+				13CA183F18E4364B0004EA7B /* munkeonyoung.jpg */,
+				13CA184018E4364B0004EA7B /* parkminyoung.jpg */,
+				13CA184118E4364B0004EA7B /* shinmina2.jpg */,
 			);
 			name = image;
 			sourceTree = "<group>";
@@ -227,8 +248,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13CA184618E4364B0004EA7B /* munkeonyoung.jpg in Resources */,
 				13CA181618E435F70004EA7B /* InfoPlist.strings in Resources */,
+				13CA184818E4364B0004EA7B /* shinmina2.jpg in Resources */,
+				13CA184518E4364B0004EA7B /* kimtaehee.jpg in Resources */,
+				13CA184718E4364B0004EA7B /* parkminyoung.jpg in Resources */,
+				13CA184418E4364B0004EA7B /* kangdounwon.jpg in Resources */,
+				13CA184218E4364B0004EA7B /* ayase.jpg in Resources */,
 				13CA181E18E435F70004EA7B /* Images.xcassets in Resources */,
+				13CA184318E4364B0004EA7B /* hyori.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
