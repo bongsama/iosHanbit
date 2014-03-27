@@ -26,7 +26,7 @@
 -(void)nextView
 {
     SecoudViewController *secondView=[[SecoudViewController alloc]initWithNibName:@"SecondViewController" bundle:nil];
-    [Self.navigationController pushViewController:secondView animated:1];
+    [self.navigationController pushViewController:secondView animated:1];
 }
 
 - (void)viewDidLoad
