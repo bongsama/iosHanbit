@@ -16,7 +16,10 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    //FirstView생성
     _firstView=[[FirstViewController alloc]initWithNibName:@"FirstViewController" bundle:nil];
+    //윈도우의 기본뷰를 FirstView로 지정
     _window.rootViewController=_firstView;
     
     return YES;
