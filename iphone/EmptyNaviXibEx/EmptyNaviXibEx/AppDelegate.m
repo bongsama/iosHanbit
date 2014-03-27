@@ -17,6 +17,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     _firstView=[[FirstViewController alloc]initWithNibName:@"FirstViewController" bundle:nil];
+    _window.rootViewController=_firstView;
     
     return YES;
 }
