@@ -30,6 +30,7 @@
 		13CA184D18E436B50004EA7B /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13CA184B18E436B50004EA7B /* FirstViewController.xib */; };
 		13CA185118E43B2B0004EA7B /* SecoudViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CA184F18E43B2B0004EA7B /* SecoudViewController.m */; };
 		13CA185218E43B2B0004EA7B /* SecoudViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13CA185018E43B2B0004EA7B /* SecoudViewController.xib */; };
+		13CA185518E43FCB0004EA7B /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CA185418E43FCB0004EA7B /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,8 @@
 		13CA184E18E43B2B0004EA7B /* SecoudViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecoudViewController.h; sourceTree = "<group>"; };
 		13CA184F18E43B2B0004EA7B /* SecoudViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecoudViewController.m; sourceTree = "<group>"; };
 		13CA185018E43B2B0004EA7B /* SecoudViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecoudViewController.xib; sourceTree = "<group>"; };
+		13CA185318E43FCB0004EA7B /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		13CA185418E43FCB0004EA7B /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		13CA17FF18E435F70004EA7B = {
 			isa = PBXGroup;
 			children = (
+				13CA185318E43FCB0004EA7B /* ThirdViewController.h */,
+				13CA185418E43FCB0004EA7B /* ThirdViewController.m */,
 				13CA184E18E43B2B0004EA7B /* SecoudViewController.h */,
 				13CA184F18E43B2B0004EA7B /* SecoudViewController.m */,
 				13CA185018E43B2B0004EA7B /* SecoudViewController.xib */,
@@ -294,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13CA181C18E435F70004EA7B /* AppDelegate.m in Sources */,
+				13CA185518E43FCB0004EA7B /* ThirdViewController.m in Sources */,
 				13CA184C18E436B50004EA7B /* FirstViewController.m in Sources */,
 				13CA181818E435F70004EA7B /* main.m in Sources */,
 				13CA185118E43B2B0004EA7B /* SecoudViewController.m in Sources */,
