@@ -19,6 +19,10 @@
     
     //FirstView생성
     _firstView=[[FirstViewController alloc]initWithNibName:@"FirstViewController" bundle:nil];
+    
+    //네비게이션 컨트롤러 생성
+    UINavigationController *naviCont=[[UINavigationController alloc] initWithRootViewController:_firstView];
+    
     //윈도우의 기본뷰를 FirstView로 지정
     _window.rootViewController=_firstView;
     
