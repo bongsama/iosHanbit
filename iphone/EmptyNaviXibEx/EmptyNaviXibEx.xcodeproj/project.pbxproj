@@ -26,6 +26,8 @@
 		13CA184618E4364B0004EA7B /* munkeonyoung.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13CA183F18E4364B0004EA7B /* munkeonyoung.jpg */; };
 		13CA184718E4364B0004EA7B /* parkminyoung.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13CA184018E4364B0004EA7B /* parkminyoung.jpg */; };
 		13CA184818E4364B0004EA7B /* shinmina2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13CA184118E4364B0004EA7B /* shinmina2.jpg */; };
+		13CA184C18E436B50004EA7B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CA184A18E436B50004EA7B /* FirstViewController.m */; };
+		13CA184D18E436B50004EA7B /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13CA184B18E436B50004EA7B /* FirstViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,9 @@
 		13CA183F18E4364B0004EA7B /* munkeonyoung.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = munkeonyoung.jpg; sourceTree = "<group>"; };
 		13CA184018E4364B0004EA7B /* parkminyoung.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = parkminyoung.jpg; sourceTree = "<group>"; };
 		13CA184118E4364B0004EA7B /* shinmina2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shinmina2.jpg; sourceTree = "<group>"; };
+		13CA184918E436B50004EA7B /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		13CA184A18E436B50004EA7B /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		13CA184B18E436B50004EA7B /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +96,9 @@
 		13CA17FF18E435F70004EA7B = {
 			isa = PBXGroup;
 			children = (
+				13CA184918E436B50004EA7B /* FirstViewController.h */,
+				13CA184A18E436B50004EA7B /* FirstViewController.m */,
+				13CA184B18E436B50004EA7B /* FirstViewController.xib */,
 				13CA181118E435F70004EA7B /* EmptyNaviXibEx */,
 				13CA182A18E435F70004EA7B /* EmptyNaviXibExTests */,
 				13CA180A18E435F70004EA7B /* Frameworks */,
@@ -249,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13CA184618E4364B0004EA7B /* munkeonyoung.jpg in Resources */,
+				13CA184D18E436B50004EA7B /* FirstViewController.xib in Resources */,
 				13CA181618E435F70004EA7B /* InfoPlist.strings in Resources */,
 				13CA184818E4364B0004EA7B /* shinmina2.jpg in Resources */,
 				13CA184518E4364B0004EA7B /* kimtaehee.jpg in Resources */,
@@ -276,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13CA181C18E435F70004EA7B /* AppDelegate.m in Sources */,
+				13CA184C18E436B50004EA7B /* FirstViewController.m in Sources */,
 				13CA181818E435F70004EA7B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
