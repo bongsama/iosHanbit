@@ -1,8 +1,8 @@
 //
 //  main.m
-//  ImageEffectEx2
+//  WindowSubViewEx2
 //
-//  Created by 저녁반 on 2014. 3. 31..
+//  Created by 저녁반 on 2014. 4. 1..
 //  Copyright (c) 2014년 저녁반. All rights reserved.
 //
 

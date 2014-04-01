@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  ImageEffectEx2
+//  TouchEx1
 //
-//  Created by 저녁반 on 2014. 3. 31..
+//  Created by 저녁반 on 2014. 4. 1..
 //  Copyright (c) 2014년 저녁반. All rights reserved.
 //
 
@@ -12,10 +12,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    // Override point for customization after application launch.
+//    self.window.backgroundColor = [UIColor whiteColor];
+//    [self.window makeKeyAndVisible];
     return YES;
 }
-							
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

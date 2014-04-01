@@ -16,34 +16,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Imz-rP-uzo">
-                                <rect key="frame" x="0.0" y="514" width="320" height="44"/>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V8D-6L-OYx">
+                                <rect key="frame" x="0.0" y="529" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title="fade" id="ZZE-lh-FJc">
+                                    <barButtonItem title="fade" id="7Z5-KV-rIH">
+                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
-                                            <action selector="fade:" destination="vXZ-lx-hvc" id="5Jq-jQ-BuJ"/>
+                                            <action selector="fade:" destination="vXZ-lx-hvc" id="rta-uX-dGB"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="hke-3O-uKx"/>
-                                    <barButtonItem title="shrink" id="spg-v0-hk8">
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="hhq-CZ-pgY"/>
+                                    <barButtonItem title="shrink" id="FSO-2N-ktB">
                                         <connections>
-                                            <action selector="shrink:" destination="vXZ-lx-hvc" id="hOc-mx-fFc"/>
+                                            <action selector="shrink:" destination="vXZ-lx-hvc" id="Ov6-mj-ptT"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="jYW-9d-vSy"/>
-                                    <barButtonItem title="flip" id="91W-RU-d80">
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="m6v-Ei-zcM"/>
+                                    <barButtonItem title="flip" id="Jkd-sJ-LWQ">
                                         <connections>
-                                            <action selector="flip:" destination="vXZ-lx-hvc" id="vs3-DE-S5M"/>
+                                            <action selector="flip:" destination="vXZ-lx-hvc" id="MbX-j7-jXC"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="289-Qb-TpY"/>
-                                    <barButtonItem title="curl" id="wKN-ME-fIX">
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Wiy-2u-sBc"/>
+                                    <barButtonItem title="curl" id="Uim-bh-tW9">
                                         <connections>
-                                            <action selector="curl:" destination="vXZ-lx-hvc" id="oHe-7R-efX"/>
+                                            <action selector="curl:" destination="vXZ-lx-hvc" id="3zH-0f-qol"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="1" green="0.43529412150382996" blue="0.81176471710205078" alpha="1" colorSpace="calibratedRGB"/>
                             </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

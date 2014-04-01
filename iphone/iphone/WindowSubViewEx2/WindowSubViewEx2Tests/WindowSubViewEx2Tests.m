@@ -1,18 +1,18 @@
 //
-//  ImageEffectEx2Tests.m
-//  ImageEffectEx2Tests
+//  WindowSubViewEx2Tests.m
+//  WindowSubViewEx2Tests
 //
-//  Created by 저녁반 on 2014. 3. 31..
+//  Created by 저녁반 on 2014. 4. 1..
 //  Copyright (c) 2014년 저녁반. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface ImageEffectEx2Tests : XCTestCase
+@interface WindowSubViewEx2Tests : XCTestCase
 
 @end
 
-@implementation ImageEffectEx2Tests
+@implementation WindowSubViewEx2Tests
 
 - (void)setUp
 {

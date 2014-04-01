@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Utw-Ia-Wkx">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--One View Controller - 터치1-->
+        <scene sceneID="sbV-Ny-QHX">
+            <objects>
+                <viewController id="Nce-RP-ioN" customClass="OneViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ut4-dD-Zlj"/>
+                        <viewControllerLayoutGuide type="bottom" id="e7t-r3-rnb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hXk-dK-m6D">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Qz-jS-iL0">
+                                <rect key="frame" x="41" y="55" width="229" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.80410713607380946" blue="0.85496168774987691" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vv1-zN-bek">
+                                <rect key="frame" x="41" y="108" width="229" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.84371833435954247" green="1" blue="0.73813540705065628" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ani09.gif" translatesAutoresizingMaskIntoConstraints="NO" id="4HV-mE-qaU">
+                                <rect key="frame" x="13" y="372" width="95" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ani12.gif" translatesAutoresizingMaskIntoConstraints="NO" id="kEX-uk-Chb">
+                                <rect key="frame" x="200" y="422" width="100" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.96533611810780828" blue="0.83975926301468418" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="터치1" image="125-food.png" id="by2-gH-Ioq"/>
+                    <connections>
+                        <outlet property="imgView1" destination="4HV-mE-qaU" id="Vk9-lF-I5t"/>
+                        <outlet property="imgView2" destination="kEX-uk-Chb" id="33d-c0-sg7"/>
+                        <outlet property="label1" destination="0Qz-jS-iL0" id="l3A-FR-LOI"/>
+                        <outlet property="label2" destination="Vv1-zN-bek" id="HEu-32-IES"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E6a-q5-dJX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="669" y="-505"/>
+        </scene>
+        <!--Three View Controller - 터치3-->
+        <scene sceneID="QPg-8g-skP">
+            <objects>
+                <viewController id="50Z-0J-vL8" customClass="ThreeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fZj-Lp-cmS"/>
+                        <viewControllerLayoutGuide type="bottom" id="jqd-Fr-0I2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vZV-LT-sMF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="1" green="0.85847623042507659" blue="0.97698528358296677" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="터치3" image="183-genie-lamp.png" id="wtH-1T-tnu"/>
+                    <connections>
+                        <outlet property="currentView" destination="vZV-LT-sMF" id="ymb-6T-Z99"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hGe-5S-isM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1427" y="-505"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="kvs-vQ-jGf">
+            <objects>
+                <tabBarController definesPresentationContext="YES" id="Utw-Ia-Wkx" sceneMemberID="viewController">
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="tKD-fV-bGd">
+                        <rect key="frame" x="129" y="330" width="163" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Nce-RP-ioN" kind="relationship" relationship="viewControllers" id="vdI-e4-elA"/>
+                        <segue destination="Oqb-P4-NxC" kind="relationship" relationship="viewControllers" id="eew-bV-75Z"/>
+                        <segue destination="50Z-0J-vL8" kind="relationship" relationship="viewControllers" id="zWa-pI-Fyh"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7sq-of-aXz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="197" y="-512"/>
+        </scene>
+        <!--Two View Controller - 터치2-->
+        <scene sceneID="Wr8-7a-neU">
+            <objects>
+                <viewController id="Oqb-P4-NxC" customClass="TwoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oVj-eK-6Kp"/>
+                        <viewControllerLayoutGuide type="bottom" id="9og-cK-nYx"/>
+                    </layoutGuides>
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="qRM-0b-Ykz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ReO-67-qhB">
+                                <rect key="frame" x="31" y="81" width="260" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.87941571478269176" blue="0.9565160028164108" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.87449136291825491" green="0.9918976133352545" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="터치2" image="170-butterfly.png" id="EVm-Il-J52"/>
+                    <connections>
+                        <outlet property="label1" destination="ReO-67-qhB" id="TCw-n3-qPl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I27-pj-pfF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1061" y="-505"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="125-food.png" width="29" height="23"/>
+        <image name="170-butterfly.png" width="26" height="24"/>
+        <image name="183-genie-lamp.png" width="33" height="20"/>
+        <image name="ani09.gif" width="96" height="104"/>
+        <image name="ani12.gif" width="141" height="123"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
