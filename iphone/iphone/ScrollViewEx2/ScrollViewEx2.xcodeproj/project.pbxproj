@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		138AFA5518EC441E005AD49F /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 138AFA5418EC441E005AD49F /* TwoViewController.m */; };
 		38ADF34D18EC3A480094F4D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38ADF34C18EC3A480094F4D8 /* Foundation.framework */; };
 		38ADF34F18EC3A480094F4D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38ADF34E18EC3A480094F4D8 /* CoreGraphics.framework */; };
 		38ADF35118EC3A490094F4D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38ADF35018EC3A490094F4D8 /* UIKit.framework */; };
@@ -30,6 +29,7 @@
 		38ADF38E18EC3A640094F4D8 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38ADF38718EC3A640094F4D8 /* 6.jpg */; };
 		38ADF38F18EC3A640094F4D8 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38ADF38818EC3A640094F4D8 /* 7.jpg */; };
 		38ADF39118EC3EC50094F4D8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38ADF39018EC3EC50094F4D8 /* QuartzCore.framework */; };
+		38ADF39418EC44160094F4D8 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 38ADF39318EC44160094F4D8 /* ViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,8 +43,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		138AFA5318EC441E005AD49F /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
-		138AFA5418EC441E005AD49F /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
 		38ADF34918EC3A480094F4D8 /* ScrollViewEx2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollViewEx2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38ADF34C18EC3A480094F4D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		38ADF34E18EC3A480094F4D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -72,6 +70,8 @@
 		38ADF38718EC3A640094F4D8 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
 		38ADF38818EC3A640094F4D8 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
 		38ADF39018EC3EC50094F4D8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		38ADF39218EC44160094F4D8 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		38ADF39318EC44160094F4D8 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,8 +141,8 @@
 				38ADF36218EC3A490094F4D8 /* ViewController.m */,
 				38ADF36418EC3A490094F4D8 /* Images.xcassets */,
 				38ADF35318EC3A490094F4D8 /* Supporting Files */,
-				138AFA5318EC441E005AD49F /* TwoViewController.h */,
-				138AFA5418EC441E005AD49F /* TwoViewController.m */,
+				38ADF39218EC44160094F4D8 /* ViewController2.h */,
+				38ADF39318EC44160094F4D8 /* ViewController2.m */,
 			);
 			path = ScrollViewEx2;
 			sourceTree = "<group>";
@@ -295,9 +295,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				38ADF36318EC3A490094F4D8 /* ViewController.m in Sources */,
+				38ADF39418EC44160094F4D8 /* ViewController2.m in Sources */,
 				38ADF35D18EC3A490094F4D8 /* AppDelegate.m in Sources */,
 				38ADF35918EC3A490094F4D8 /* main.m in Sources */,
-				138AFA5518EC441E005AD49F /* TwoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
