@@ -1,18 +1,18 @@
 //
-//  imageaniEx1Tests.m
-//  imageaniEx1Tests
+//  ImageAniEx1Tests.m
+//  ImageAniEx1Tests
 //
-//  Created by bongkwan on 2014. 4. 3..
+//  Created by 저녁반 on 2014. 4. 3..
 //  Copyright (c) 2014년 저녁반. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface imageaniEx1Tests : XCTestCase
+@interface ImageAniEx1Tests : XCTestCase
 
 @end
 
-@implementation imageaniEx1Tests
+@implementation ImageAniEx1Tests
 
 - (void)setUp
 {

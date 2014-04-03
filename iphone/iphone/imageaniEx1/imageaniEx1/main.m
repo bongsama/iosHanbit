@@ -1,8 +1,8 @@
 //
 //  main.m
-//  imageaniEx1
+//  ImageAniEx1
 //
-//  Created by bongkwan on 2014. 4. 3..
+//  Created by 저녁반 on 2014. 4. 3..
 //  Copyright (c) 2014년 저녁반. All rights reserved.
 //
 

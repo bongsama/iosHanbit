@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:imageaniEx1.xcodeproj">
+      location = "self:ImageAniEx1.xcodeproj">
    </FileRef>
 </Workspace>
